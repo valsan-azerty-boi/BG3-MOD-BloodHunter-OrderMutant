@@ -4,9 +4,9 @@
     <region id="MetaData">
         <node id="root">
             <attribute id="GameProject" type="LSString" value=""/>
-            <attribute id="Module" type="LSString" value="f8db1524-2e6b-58f6-a92e-cb117c99e236"/>
-            <attribute id="Name" type="LSString" value="BloodHunterOrderMutant"/>
-            <attribute id="UUID" type="LSString" value="5f2ec15b-00f5-10f1-22d4-df54972b1579"/>
+            <attribute id="Module" type="LSString" value="e9850071-5e84-dc8a-9168-3bb6b148aa77"/>
+            <attribute id="Name" type="LSString" value="OrderOfTheMutantBloodHunter"/>
+            <attribute id="UUID" type="LSString" value="ad071bf4-c01a-5fb5-3a55-d2439779e4f6"/>
             <children>
                 <node id="Categories"/>
             </children>
