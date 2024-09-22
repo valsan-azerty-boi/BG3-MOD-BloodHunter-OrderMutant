@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="subclass insert ?"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="UUID" type="guid" value="65a1cbb5-b377-4a84-9c79-70c50d4fac72"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="PassivesAdded" type="LSString" value="OrderOfTheMutant"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="UUID" type="guid" value="5d548d66-61f5-4491-b098-6d9df5df5bab"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="PassivesAdded" type="LSString" value="OrderOfTheMutant"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="UUID" type="guid" value="ccfb4536-40ca-4540-8b0f-383b62b8cc41"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="PassivesAdded" type="LSString" value="OrderOfTheMutant"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="UUID" type="guid" value="c912fe6e-4631-4a0a-b2d0-f18ca6534266"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="53912403-fe14-4ce0-89aa-96acb1dee21a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="65a1cbb5-b377-4a84-9c79-70c50d4fac72" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="00000000-0000-0000-0000-000000000000" />
+        <field name="FSName" type="StringTableFieldDefinition" value="subclass insert ?" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5d548d66-61f5-4491-b098-6d9df5df5bab" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="00000000-0000-0000-0000-000000000000" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="OrderOfTheMutant" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ccfb4536-40ca-4540-8b0f-383b62b8cc41" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="00000000-0000-0000-0000-000000000000" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="OrderOfTheMutant" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c912fe6e-4631-4a0a-b2d0-f18ca6534266" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="00000000-0000-0000-0000-000000000000" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="OrderOfTheMutant" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

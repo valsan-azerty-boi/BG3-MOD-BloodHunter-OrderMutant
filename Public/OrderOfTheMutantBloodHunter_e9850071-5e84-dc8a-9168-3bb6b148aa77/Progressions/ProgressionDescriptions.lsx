@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hba0ab7c2g7f1dg4f50g288egc4b432a0a0f6" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf9abe8ccg72c6ga2ceg685cg77ff2f4a57a3" version="1"/>
+                    <attribute id="SelectorId" type="FixedString" value="ToDo"/>
+                    <attribute id="UUID" type="guid" value="125923ad-c580-4c56-bbe3-b4f3c9458dc4"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
