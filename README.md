@@ -5,8 +5,7 @@
 
 
 ## Languages
-- English 
-- French
+- English
 
 ## Requirements
 - BG3 *Patch 7*
