@@ -12,7 +12,7 @@
                     <attribute id="Name" type="FixedString" value="OrderOfTheMutant"/>
                     <attribute id="ParentGuid" type="guid" value="84bfb42b-7200-4eda-aabc-d4273da53bc2"/>
                     <attribute id="PrimaryAbility" type="uint8" value="2"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="5e7ee411-c21c-45c7-b6d6-398f12a412fb"/>
                     <attribute id="SoundClassType" type="FixedString" value="Ranger"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
                     <attribute id="UUID" type="guid" value="566e22ee-5b04-442a-ab2e-e0aae453dcd9"/>

@@ -7,31 +7,70 @@
                 <node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="Name" type="LSString" value="subclass insert ?"/>
+                    <attribute id="Name" type="LSString" value="BloodHunter"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="TableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
-                    <attribute id="UUID" type="guid" value="65a1cbb5-b377-4a84-9c79-70c50d4fac72"/>
+                    <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
+                    <attribute id="UUID" type="guid" value="af0ad4eb-2fd3-4f1d-9132-45626c8822ef"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="b7f8f766-8f21-44aa-90fb-60e9551f2382"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="3b1fc112-0ead-4c38-8aea-08fb4b616efa"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="566e22ee-5b04-442a-ab2e-e0aae453dcd9"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="PassivesAdded" type="LSString" value="OrderOfTheMutant"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Mutagencraft"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="5e7ee411-c21c-45c7-b6d6-398f12a412fb"/>
                     <attribute id="UUID" type="guid" value="5d548d66-61f5-4491-b098-6d9df5df5bab"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="PassivesAdded" type="LSString" value="OrderOfTheMutant"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Mutagencraft7;StrangeMetabolism7"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="5e7ee411-c21c-45c7-b6d6-398f12a412fb"/>
                     <attribute id="UUID" type="guid" value="ccfb4536-40ca-4540-8b0f-383b62b8cc41"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="PassivesAdded" type="LSString" value="OrderOfTheMutant"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Mutagencraft11;BrandOfAxiom11"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="5e7ee411-c21c-45c7-b6d6-398f12a412fb"/>
                     <attribute id="UUID" type="guid" value="c912fe6e-4631-4a0a-b2d0-f18ca6534266"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="15"/>
+                    <attribute id="PassivesAdded" type="LSString" value="OrderOfTheMutant"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Mutagencraft15;BloodCurseOfCorrosion15"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="5e7ee411-c21c-45c7-b6d6-398f12a412fb"/>
+                    <attribute id="UUID" type="guid" value="5ca33f9a-b506-468e-ac09-4b150aa085b5"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="18"/>
+                    <attribute id="PassivesAdded" type="LSString" value="OrderOfTheMutant"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Mutagencraft18;ExaltedMutation18"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="5e7ee411-c21c-45c7-b6d6-398f12a412fb"/>
+                    <attribute id="UUID" type="guid" value="354cfc4f-ad0d-4822-b50b-ab907a671004"/>
                 </node>
             </children>
         </node>
