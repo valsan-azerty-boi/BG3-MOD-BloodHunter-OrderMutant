@@ -2,10 +2,10 @@
 <contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <content contentuid="hf0d1f2dfgd977g1297gceebg1b07aab0dceb" version="1">Order of the Mutant</content>
   <content contentuid="h4e81236cg1ce4gcaceg366cg4b9226b3bc1f" version="1">Over generations of experimentation, a splinter order of blood hunters honed the way in which hemocraft alters the body, using corrupted alchemy and toxic elixirs to alter their blood even further. Calling themselves the Order of the Mutant, these blood hunters now specialize in assessing the strengths and weaknesses of their foes, altering their biology to be best prepared for any conflict.</content>
-  <content contentuid="hf9abe8ccg72c6ga2ceg685cg77ff2f4a57a3" version="1">ProgressionDescriptions DisplayName</content>
-  <content contentuid="hba0ab7c2g7f1dg4f50g288egc4b432a0a0f6" version="1">ProgressionDescriptions Description</content>
+  <content contentuid="hf9abe8ccg72c6ga2ceg685cg77ff2f4a57a3" version="1">Mutagencraft</content>
+  <content contentuid="hba0ab7c2g7f1dg4f50g288egc4b432a0a0f6" version="1">You learn some mutagens formulas that can temporarily alter your mental and physical abilities.</content>
   <content contentuid="h3b4eac1eg0a40g945eg4f82gcb0f3b4adf72" version="2">Mutagencraft</content>
-  <content contentuid="hfd39bc80g4afbg218dg68ffgb0cc9d3158fe" version="1">You learn forbidden alchemical formulas—known as mutagens—that can temporarily alter your mental and physical abilities. As a bonus action, you consume a mutagen, whose effects and side effects last until you finish a short or long rest unless otherwise specified. While one or more mutagens are affecting you, you can use an action to focus and flush all mutagens from your system, ending their effects and side effects. Mutagens are designed for the specific biology of the character who concocted them, and your mutagens have no effect on other creatures. They are also unstable by nature, losing their potency over time and becoming inert if not used before you finish your next short or long rest.</content>
+  <content contentuid="hfd39bc80g4afbg218dg68ffgb0cc9d3158fe" version="1">You learn forbidden alchemical formulas—known as mutagens—that can temporarily alter your mental and physical abilities. As a bonus action, you consume a mutagen, whose effects and side effects last until you finish a long rest unless otherwise specified. While one or more mutagens are affecting you, you can use an action to focus and flush all mutagens from your system, ending their effects and side effects. Mutagens are designed for the specific biology of the character who concocted them, and your mutagens have no effect on other creatures. They are also unstable by nature, losing their potency over time and becoming inert if not used before you finish your next long rest.</content>
   <content contentuid="h7bb70506ga8c7gb1d1g273bgedb317e13852" version="1">Mutagencraft</content>
   <content contentuid="hf1ac6d28g7f32gdff2gb641gf088ead45fd3" version="1">Mutagencraft</content>
   <content contentuid="h56d0c3d9g5fa0ge8a8g5026ga717ebc95092" version="1">Mutagencraft (Expert)</content>
@@ -70,7 +70,7 @@
   <content contentuid="h650cafe9g3680g0918g2c5cgca16d8a064b3" version="1">You have a flying speed of 20 feet for some time. However, you have disadvantage on Strength checks and Dexterity checks during this time.</content>
   <content contentuid="hb4169a0bg4a45g6e5bg0aa9gf69bc0aca48d" version="1">You gain an additional use of your Blood Maledict feature. However, you have disadvantage on death saving throws.</content>
   <content contentuid="h2e2ecd4dgaf0bgd78aga8abgbd29f4fada19" version="1">You create a mutagen with a known recipe from your Blood Hunter order.</content>
-  <content contentuid="hcb625ebfg0267g00edgc9a8gf751d1622b04" version="1">You have a flying speed of 20 feet for some time. However, you have disadvantage on Strength checks and Dexterity checks during this time.</content>
+  <content contentuid="hcb625ebfg0267g00edgc9a8gf751d1622b04" version="2">You get the ability to fly for some time. However, you have disadvantage on Strength checks and Dexterity checks during this time.</content>
   <content contentuid="h2ba36c48gbdd8g534eg2e7cg14c2b368f4b0" version="1">Your skin and voice become malleable, allowing you to enhance your appearance and presence. You have advantage on Charisma checks. However, you have disadvantage on initiative rolls.</content>
   <content contentuid="h819c397bg24eeg61f2g95cdgf1d7fd9bd2a8" version="1">Your Dexterity score increases by 3, as does your maximum for that score. However, you have disadvantage on Wisdom saving throws. Your Dexterity score and your maximum increase by 4 if you consume this mutagen at 11th level, and by 5 at 18th level.</content>
   <content contentuid="h4d0f0511g80b1ga56fg3f96g58ab95ef4f3c" version="1">You have advantage on Intelligence checks. However, you have disadvantage on Wisdom checks.</content>
@@ -84,7 +84,7 @@
   <content contentuid="h844f1139g4205gd44ag8dadgdc67537e634e" version="1">You have advantage on Wisdom checks. However, you have disadvantage on Charisma checks.</content>
   <content contentuid="h49ea4776g3450g0e54g3189gcd14f0adc65e" version="1">Your Strength score increases by 3, as does your maximum for that score. However, you have disadvantage on Dexterity saving throws. Your Strength score and your maximum increase by 4 if you consume this mutagen at 11th level, and by 5 at 18th level.</content>
   <content contentuid="h7234b906g7c0eg4b91g2d1dga38976ee8be3" version="1">Your weapon attacks score a critical hit on a roll of 19 or 20. However, you have disadvantage on Strength saving throws.</content>
-  <content contentuid="ha8e8ba4dg8061g760bg3d1ag4671977dcd04" version="1">Your speed increases by 10 feet. However, you have disadvantage on Intelligence checks. At 15th level, your speed increases by an additional 5 feet.</content>
+  <content contentuid="ha8e8ba4dg8061g760bg3d1ag4671977dcd04" version="2">Your movement speed is increased. However, you have disadvantage on Intelligence checks. At 15th level, your speed increases more.</content>
   <content contentuid="h998be907gae10g4adeg1d07g1480b1aa6b5c" version="1">For some time, at the start of each of your turns when you have at least 1 hit point but fewer hit points than half your hit point maximum, you regain hit points equal to your proficiency bonus. However, your speed is reduced by 10 feet during this time.</content>
   <content contentuid="hae6df996g48e3g44fbg52c1g9ce2bd6876cd" version="1">Your Intelligence score increases by 3, as does your maximum for that score. However, you have disadvantage on Charisma saving throws. Your Intelligence score and your maximum increase by 4 if you consume this mutagen at 11th level, and by 5 at 18th level.</content>
   <content contentuid="h1a5e006agac1fg4d1eg4904g74da834509aa" version="1">You have resistance to slashing damage, and you have vulnerability to bludgeoning damage.</content>
@@ -148,4 +148,47 @@
   <content contentuid="h9322e6bdg1af9gf7edged8dg3b3f7fc849d7" version="1">You have resistance to bludgeoning damage, and you have vulnerability to piercing damage.</content>
   <content contentuid="h54b05df5g0591g8db1g60b9g467bce237cb8" version="1">Vermillion Mutagen</content>
   <content contentuid="hf04d656fg1868g0edbgf0b8g9d6d0c2daae1" version="1">You gain an additional use of your Blood Maledict feature. However, you have disadvantage on death saving throws.</content>
+  <content contentuid="h1c9ce123g6f1cg2643gcdcbg20b1aa7f8d1c" version="1">Create Mutagen "Aether"</content>
+  <content contentuid="h6a9c66a0g8454g73ebg97e9gb286fe3ba7f5" version="1">Create Mutagen "Alluring"</content>
+  <content contentuid="h68f3c821g423bg9a6fg4455g4cec9dcf3712" version="1">Create Mutagen "Celerity"</content>
+  <content contentuid="hbf4c35f7g079agd540ga840g85c160111ac1" version="1">Create Mutagen "Conversant"</content>
+  <content contentuid="h04e26a15g1bbcg323fgb601geeaa5a325be8" version="1">Create Mutagen "Cruelty"</content>
+  <content contentuid="hcc7ad26cg6a5cgba58g0d69g2e3d6da1d6fd" version="1">Create Mutagen "Deftness"</content>
+  <content contentuid="h25335a6eg57beg4e08g873agfb725ce1fad4" version="1">Create Mutagen "Embers"</content>
+  <content contentuid="h94ca91a8g607ag0522g8853g7b28de2fc295" version="1">Create Mutagen "Gelid"</content>
+  <content contentuid="h77d0da35g07afgbf7fg3c55g79de6e91265e" version="1">Create Mutagen "Impermeable"</content>
+  <content contentuid="h17be2f7bgd7aeg8a3cg4748g631473b89755" version="1">Create Mutagen "Mobility"</content>
+  <content contentuid="h694df4b1ge3c4ge6c8g6039g983f1838a152" version="1">Create Mutagen "Nighteye"</content>
+  <content contentuid="hcedaffd5g2d69g5522g2a26g536355b89d08" version="1">Create Mutagen "Percipient"</content>
+  <content contentuid="hf3ba483egbf26g29f7g456fgb80f32c956ea" version="1">Create Mutagen "Potency"</content>
+  <content contentuid="h70ac72degf1f3ge9e6g6b75g824cad6e57b5" version="1">Create Mutagen "Precision"</content>
+  <content contentuid="h3137143dgd0deg7e9dg9790g93a80d3831bb" version="1">Create Mutagen "Rapidity"</content>
+  <content contentuid="ha0c43754gd3ffg1617g664ag283b1e978468" version="1">Create Mutagen "Reconstruction"</content>
+  <content contentuid="h81de2cb2g0fa0g8b2cgc068g26182dc5b00b" version="1">Create Mutagen "Sagacity"</content>
+  <content contentuid="h1c6aada2g73bfgd49ege7f3g9d3c2eb7e82b" version="1">Create Mutagen "Shielded"</content>
+  <content contentuid="hff458003g47ffg4305g3d97g2cbf6692752e" version="1">Create Mutagen "Unbreakable"</content>
+  <content contentuid="hcbb8655ag0168g0ab8g2b97g44cccb028aaa" version="1">Create Mutagen "Vermillion"</content>
+  <content contentuid="hce5b1c64g0c02g630fgfb91g6a1d3f99a8ba" version="1">You have a flying speed of 20 feet for some time. However, you have disadvantage on Strength checks and Dexterity checks during this time.</content>
+  <content contentuid="hae50d065g3467g7f0agdb2bg8b60bd75d816" version="1">Your skin and voice become malleable, allowing you to enhance your appearance and presence. You have advantage on Charisma checks. However, you have disadvantage on initiative rolls.</content>
+  <content contentuid="h43bfef8fgc658g3f47g93a0ga4fb52d3fb2b" version="1">Your Dexterity score increases by 3, as does your maximum for that score. However, you have disadvantage on Wisdom saving throws. Your Dexterity score and your maximum increase by 4 if you consume this mutagen at 11th level, and by 5 at 18th level.</content>
+  <content contentuid="h6c118f2fg664bgba07g948dgbcdf189ca1b0" version="1">You have advantage on Intelligence checks. However, you have disadvantage on Wisdom checks.</content>
+  <content contentuid="h6a7c48a0g50adgdf93g4a13gf345e457f9eb" version="1">When you use the Attack action, you can make one additional weapon attack as a bonus action. However, you have disadvantage on Intelligence, Wisdom, and Charisma saving throws.</content>
+  <content contentuid="he63d64f9gd3f1gefcag8cd3g382dc3d7a287" version="1">You have advantage on Dexterity checks. However, you have disadvantage on Wisdom checks.</content>
+  <content contentuid="h5e90a563g7674ga6edg0cafgf5e039cd5402" version="1">You have resistance to fire damage and vulnerability to cold damage.</content>
+  <content contentuid="heff4acb4g7d0cg23f1gbb4fg499025edbebb" version="1">You have resistance to cold damage and vulnerability to fire damage.</content>
+  <content contentuid="h3950c754g4132ge45cgc3efgd6cfea7daecf" version="1">You have resistance to piercing damage and vulnerability to slashing damage.</content>
+  <content contentuid="hb869470fg4704g658ag45bdg9490cdabb5dd" version="1">You have immunity to the grappled and restrained conditions. However, you have disadvantage on Strength checks. At 11th level, you are also immune to the paralyzed condition.</content>
+  <content contentuid="h856c0aebg9ee2gfaf5g89aagc1f85b475aed" version="1">You have darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 60 feet. However, you have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</content>
+  <content contentuid="h4b7820e7gc739g1e07g6419g80974857b048" version="1">You have advantage on Wisdom checks. However, you have disadvantage on Charisma checks.</content>
+  <content contentuid="h431a38ecg6939g32c5g3998gfe50fd612bfe" version="1">Your Strength score increases by 3, as does your maximum for that score. However, you have disadvantage on Dexterity saving throws. Your Strength score and your maximum increase by 4 if you consume this mutagen at 11th level, and by 5 at 18th level.</content>
+  <content contentuid="he305b5bcgd9a3g7706gc975ge15f3bc23ce5" version="1">Your weapon attacks score a critical hit on a roll of 19 or 20. However, you have disadvantage on Strength saving throws.</content>
+  <content contentuid="hfc8f961fg8096gdd7cgc25fg1e6a4a7354ce" version="1">Your speed increases by 10 feet. However, you have disadvantage on Intelligence checks. At 15th level, your speed increases by an additional 5 feet.</content>
+  <content contentuid="h74287f92gfb19g351ag2d74gce8944c522c6" version="1">For some time, at the start of each of your turns when you have at least 1 hit point but fewer hit points than half your hit point maximum, you regain hit points equal to your proficiency bonus. However, your speed is reduced by 10 feet during this time.</content>
+  <content contentuid="hd0c1f33bge442g2bc4g1cb4g55ee97134381" version="1">Your Intelligence score increases by 3, as does your maximum for that score. However, you have disadvantage on Charisma saving throws. Your Intelligence score and your maximum increase by 4 if you consume this mutagen at 11th level, and by 5 at 18th level.</content>
+  <content contentuid="h9da823bbg3c31g682eg8d76g5efe1655571d" version="1">You have resistance to slashing damage, and you have vulnerability to bludgeoning damage.</content>
+  <content contentuid="h2cbdc57fg582fgc2dfgcf97gceb91ad5415c" version="1">You have resistance to bludgeoning damage, and you have vulnerability to piercing damage.</content>
+  <content contentuid="h5ff690b6g8566ga1d5g31c6ga55294978156" version="1">You gain an additional use of your Blood Maledict feature. However, you have disadvantage on death saving throws.</content>
+  <content contentuid="h145c570eg4f7cgaaf1gbe4bg6d578a5793bc" version="1">Mutagencraft</content>
+  <content contentuid="h8be5ce8dg162eg2cd9gb825ge62da5c64a0d" version="2">Each day (Long Rest) you have a limited number of mutagen you can craft.</content>
+  <content contentuid="hf8c0975bg8230g603fg5cfbg7590938a1af7" version="3">Mutagen "Aether"</content>
 </contentList>

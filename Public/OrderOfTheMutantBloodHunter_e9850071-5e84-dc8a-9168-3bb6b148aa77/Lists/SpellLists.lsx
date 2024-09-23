@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Mutagencraft"/>
+                    <attribute id="Spells" type="LSString" value="Shout_MutagenAlluring;Shout_MutagenCelerity;Shout_MutagenConversant;Shout_MutagenDeftness;Shout_MutagenEmbers;Shout_MutagenGelid;Shout_MutagenImpermeable;Shout_MutagenMobility;Shout_MutagenNighteye;Shout_MutagenPercipient;Shout_MutagenPotency;Shout_MutagenRapidity;Shout_MutagenSagacity;Shout_MutagenShielded;Shout_MutagenUnbreakable;Shout_MutagenVermillion"/>
+                    <attribute id="UUID" type="guid" value="fffd1bda-4a5e-4625-bdf6-e6dd9d88e9d9"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Mutagencraft7"/>
+                    <attribute id="Spells" type="LSString" value="Shout_MutagenAlluring;Shout_MutagenCelerity;Shout_MutagenConversant;Shout_MutagenDeftness;Shout_MutagenEmbers;Shout_MutagenGelid;Shout_MutagenImpermeable;Shout_MutagenMobility;Shout_MutagenNighteye;Shout_MutagenPercipient;Shout_MutagenPotency;Shout_MutagenRapidity;Shout_MutagenSagacity;Shout_MutagenShielded;Shout_MutagenUnbreakable;Shout_MutagenVermillion;Shout_MutagenReconstruction7"/>
+                    <attribute id="UUID" type="guid" value="6ef84b7b-a238-4edc-bc79-cce3c797861e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Mutagencraft11"/>
+                    <attribute id="Spells" type="LSString" value="Shout_MutagenAlluring;Shout_MutagenCelerity;Shout_MutagenConversant;Shout_MutagenDeftness;Shout_MutagenEmbers;Shout_MutagenGelid;Shout_MutagenImpermeable;Shout_MutagenMobility;Shout_MutagenNighteye;Shout_MutagenPercipient;Shout_MutagenPotency;Shout_MutagenRapidity;Shout_MutagenSagacity;Shout_MutagenShielded;Shout_MutagenUnbreakable;Shout_MutagenVermillion;Shout_MutagenReconstruction7;Shout_MutagenAether11;Shout_MutagenCruelty11;Shout_MutagenPrecision11"/>
+                    <attribute id="UUID" type="guid" value="0d8ad469-de0c-49c3-8f1a-6e06f8c4a586"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

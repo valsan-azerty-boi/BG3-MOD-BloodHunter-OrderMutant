@@ -29,46 +29,49 @@
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="PassivesAdded" type="LSString" value="OrderOfTheMutant"/>
+                    <attribute id="Name" type="LSString" value="OrderOfTheMutant"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MutagencraftSlot,1,0)"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value="Mutagencraft"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(fffd1bda-4a5e-4625-bdf6-e6dd9d88e9d9,4,1,Mutagencraft)"/>
                     <attribute id="TableUUID" type="guid" value="5e7ee411-c21c-45c7-b6d6-398f12a412fb"/>
                     <attribute id="UUID" type="guid" value="5d548d66-61f5-4491-b098-6d9df5df5bab"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="7"/>
-                    <attribute id="PassivesAdded" type="LSString" value="OrderOfTheMutant"/>
+                    <attribute id="Name" type="LSString" value="OrderOfTheMutant"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MutagencraftSlot,1,0)"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value="Mutagencraft7;StrangeMetabolism7"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(6ef84b7b-a238-4edc-bc79-cce3c797861e,1,1,Mutagencraft)"/>
                     <attribute id="TableUUID" type="guid" value="5e7ee411-c21c-45c7-b6d6-398f12a412fb"/>
                     <attribute id="UUID" type="guid" value="ccfb4536-40ca-4540-8b0f-383b62b8cc41"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="11"/>
-                    <attribute id="PassivesAdded" type="LSString" value="OrderOfTheMutant"/>
+                    <attribute id="Name" type="LSString" value="OrderOfTheMutant"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value="Mutagencraft11;BrandOfAxiom11"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(0d8ad469-de0c-49c3-8f1a-6e06f8c4a586,1,1,Mutagencraft)"/>
                     <attribute id="TableUUID" type="guid" value="5e7ee411-c21c-45c7-b6d6-398f12a412fb"/>
                     <attribute id="UUID" type="guid" value="c912fe6e-4631-4a0a-b2d0-f18ca6534266"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="15"/>
-                    <attribute id="PassivesAdded" type="LSString" value="OrderOfTheMutant"/>
+                    <attribute id="Name" type="LSString" value="OrderOfTheMutant"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MutagencraftSlot,1,0)"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value="Mutagencraft15;BloodCurseOfCorrosion15"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(0d8ad469-de0c-49c3-8f1a-6e06f8c4a586,1,1,Mutagencraft)"/>
                     <attribute id="TableUUID" type="guid" value="5e7ee411-c21c-45c7-b6d6-398f12a412fb"/>
                     <attribute id="UUID" type="guid" value="5ca33f9a-b506-468e-ac09-4b150aa085b5"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="18"/>
-                    <attribute id="PassivesAdded" type="LSString" value="OrderOfTheMutant"/>
+                    <attribute id="Name" type="LSString" value="OrderOfTheMutant"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value="Mutagencraft18;ExaltedMutation18"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(0d8ad469-de0c-49c3-8f1a-6e06f8c4a586,1,1,Mutagencraft)"/>
                     <attribute id="TableUUID" type="guid" value="5e7ee411-c21c-45c7-b6d6-398f12a412fb"/>
                     <attribute id="UUID" type="guid" value="354cfc4f-ad0d-4822-b50b-ab907a671004"/>
                 </node>
