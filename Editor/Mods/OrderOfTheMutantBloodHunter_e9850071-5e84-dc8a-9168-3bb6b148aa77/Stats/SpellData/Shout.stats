@@ -30,7 +30,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he89e3a3eg1104g411dg8218g9fd47587270f" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h52487702g694dg74a3g8b4eg5de0e7b64504" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(48836c42-346b-4c9f-bb9d-d06bf0a8ff59,-1,1,false,false,false,,,)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(cd6b434b-af05-4548-a5ff-0dbec5081015,-1,1,false,false,false,,,)" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Surge" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Surge" />
@@ -64,6 +64,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(af68855e-0896-47d1-808c-8c19fd9da5d2,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -83,6 +84,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(f0950ce7-ce33-49d2-9acf-606e734506c1,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -102,6 +104,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(99ef6972-da65-4947-ab8a-d3f332b7bb16,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -121,6 +124,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(fc0a8ff1-91a4-451c-86d3-c7006ff6eb9e,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -140,6 +144,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(1fa01305-8d05-4e02-9cce-9ed30a9d1086,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -159,6 +164,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(000,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -178,6 +184,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(000,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -197,6 +204,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(000,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -216,6 +224,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(000,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -235,6 +244,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(000,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -254,6 +264,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(000,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -273,6 +284,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(000,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -292,6 +304,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(000,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -311,6 +324,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(000,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -330,6 +344,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(000,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -349,6 +364,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(000,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -368,6 +384,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(000,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -387,6 +404,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(000,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

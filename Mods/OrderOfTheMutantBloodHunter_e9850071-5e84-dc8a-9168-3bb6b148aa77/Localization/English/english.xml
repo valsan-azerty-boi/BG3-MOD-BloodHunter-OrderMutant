@@ -190,5 +190,18 @@
   <content contentuid="h5ff690b6g8566ga1d5g31c6ga55294978156" version="1">You gain an additional use of your Blood Maledict feature. However, you have disadvantage on death saving throws.</content>
   <content contentuid="h145c570eg4f7cgaaf1gbe4bg6d578a5793bc" version="1">Mutagencraft</content>
   <content contentuid="h8be5ce8dg162eg2cd9gb825ge62da5c64a0d" version="2">Each day (Long Rest) you have a limited number of mutagen you can craft.</content>
-  <content contentuid="hf8c0975bg8230g603fg5cfbg7590938a1af7" version="3">Mutagen "Aether"</content>
+  <content contentuid="hf8c0975bg8230g603fg5cfbg7590938a1af7" version="5">Mutagen "Aether"</content>
+  <content contentuid="h0d4ee10cgb1c3g4e58g6d6fgd9128ef21790" version="2">A Blood Hunter mutagen.</content>
+  <content contentuid="h79d5f26bg23d2g505age1ebgbfd6c6ac1246" version="1">Mutagen "Alluring"</content>
+  <content contentuid="h5fc799f0g2051g55e1g60e4g60d8dcbb44b3" version="1">A Blood Hunter mutagen.</content>
+  <content contentuid="hb0c829d0g50c9gb25fg7039g85b126f37ffd" version="1">Mutagen "Celerity"</content>
+  <content contentuid="h8c363b8dg67aagbddcga27agfb64be1bab3e" version="1">A Blood Hunter mutagen.</content>
+  <content contentuid="ha44a0b29ga2f7ga394g3981ga616262e34d8" version="1">Mutagen "Conversant"</content>
+  <content contentuid="h0fcf9319gc436ge006gb19dgfe70e374cfd8" version="1">A Blood Hunter mutagen.</content>
+  <content contentuid="hb2863752g1d44g025cg71d3geb99a2843d20" version="1">Mutagen "Cruelty"</content>
+  <content contentuid="h5ba72319g546eg17e5g2fd5g17d3b2c25be3" version="1">A Blood Hunter mutagen.</content>
+  <content contentuid="ha2b762eag6846gfc59g35d5g5db5fd34d3b9" version="1">Mutagen "Deftness"</content>
+  <content contentuid="hc81a272cgea2dgf5dag924cgf75700a17416" version="1">A Blood Hunter mutagen.</content>
+  <content contentuid="h97df6b1fgcbecg48b8g831fgf2f95ec908b7" version="1">Mutagen "Embers"</content>
+  <content contentuid="h764ea90cg7607gb663g9ed6g372f281e64e8" version="1">A Blood Hunter mutagen.</content>
 </contentList>
