@@ -1,0 +1,9 @@
+new entry "Interrupt_BrandOfAxiom"
+type "InterruptData"
+using "Interrupt_BrandOfCastigation"
+data "DisplayName" "h7113218ag95a5g0559geb26ge97d9aca79fb;1"
+data "Description" "h33605817gc9b0gd3c1g89d4g2b817ea797e5;1"
+data "DescriptionParams" ""
+data "Icon" "Spell_BrandOfCastigation"
+data "Properties" "ApplyStatus(BRAND_OF_AXIOM, 100, -1);ApplyStatus(SELF,BRAND_OF_AXIOM_OWNER, 100, -1)"
+                   

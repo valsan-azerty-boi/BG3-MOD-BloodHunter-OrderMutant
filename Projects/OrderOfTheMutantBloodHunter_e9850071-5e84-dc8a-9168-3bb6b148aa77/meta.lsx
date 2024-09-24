@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="GameProject" type="LSString" value=""/>
+            <attribute id="Module" type="LSString" value="e9850071-5e84-dc8a-9168-3bb6b148aa77"/>
+            <attribute id="Name" type="LSString" value="OrderOfTheMutantBloodHunter"/>
+            <attribute id="UUID" type="LSString" value="ad071bf4-c01a-5fb5-3a55-d2439779e4f6"/>
+            <children>
+                <node id="Categories"/>
+            </children>
+        </node>
+    </region>
+</save>

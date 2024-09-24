@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c4b5ff99-cf14-400c-94f6-ff8053ebe850" />
+        <field name="Name" type="NameTableFieldDefinition" value="AdrenalineBurst" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbe3d87a3g630dgf7c4g2a31g6d329fa75965" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha4d0573eg9cccg032cge3fag97972b436f49" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6133e92d-7d9d-44d5-96a0-f97fad4265df" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenAether11" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hae3bb0f0gec8cg5989g5b2dg1e3e0f927e38" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h74cd46c4gbd49gcdc6gd2c7ge11f0b58eeaf" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Fly_Spell)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenAether11_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenAether11_Nega') and HasStatus('MutagenAether11')):ApplyStatus(MutagenAether11_Nega,100,1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenAether11_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8a309c32-04c8-42d5-ba0c-65be043963a8" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenAether11_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h755c08aag02acg0222g0148gcb2ece1484bd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h77108206ge74bg7261gbb37g279cdb184291" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability,Strength);Disadvantage(Ability,Dexterity)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e744d754-6064-4e0a-a5f0-8baff7f53d4f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenAlluring" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb742211fg722cg5e09gc2d2gda66445397d6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd0efe5c9g3c94g5f36g8977g5d65cf0c940a" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Ability,Charisma)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenAlluring_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenAlluring_Nega') and HasStatus('MutagenAlluring')):ApplyStatus(MutagenAlluring_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenAlluring_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b0b0514d-4c2a-42ba-becf-7ef2beb57f9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenAlluring_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6b09fd25g0078g78e0g44fcg2e231426fa88" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4e7e876cgcd7agf9f9g8721g62c0c39f920e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Initiative(-1)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4b5c3c8b-1460-454e-a6a0-b5a31b5cbd86" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenCelerity" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4082f428ge3e1gf5a8gafb3g0bb1f5d17e09" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbb556f76g6840g36e8g958cg6525b673602a" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Dexterity,3)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenCelerity_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenCelerity_Nega') and HasStatus('MutagenCelerity')):ApplyStatus(MutagenCelerity_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenCelerity_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cda9ba55-0470-4bcc-a8ca-8a33a08c929e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenCelerity_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ad4bafag8b9ag80c4g7bd8g316d6d355a77" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h10f8cdd2gc89egb9deg04b4g65c3ff60def6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(SavingThrow,Wisdom)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="89994829-c28d-4faa-b78d-261e6a4c5eb2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenConversant" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h87790d4bgbc03gb726g2679gc73b3b62d6ec" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd6643e87g3907g6f5cg1410g3ce38b643368" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Ability,Intelligence)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenConversant_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenConversant_Nega') and HasStatus('MutagenConversant')):ApplyStatus(MutagenConversant_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenConversant_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2b0193e4-d3e3-47bd-bc5d-568924e1de67" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenConversant_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6b96eca6ge687g40a8g37dcg026c30a11d43" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h21b24227g8012g9477g68abg94c0d8de5ed4" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability,Wisdom)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90c5544d-8511-45e9-8692-341e4d7fd644" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenCruelty11" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6e0c696g8cb2g1ffcg9581g6edae93458d0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h73191caeg29c0gce0bg9f9cg7714a018d9ee" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(ExtraAttackCheck(),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyIconGlow(),ModifyTooltipDescription())" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenCruelty11_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenCruelty11_Nega') and HasStatus('MutagenCruelty11')):ApplyStatus(MutagenCruelty11_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenCruelty11_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4d9eabed-2c0d-4829-be84-a68b710d6d4d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenCruelty11_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h48ecd516gf586geb75g59f8g6fa3044d7522" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4170d3eagfc86g8c11g0f4cg93358514befd" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(SavingThrow,Intelligence);Disadvantage(SavingThrow,Wisdom);Disadvantage(SavingThrow,Charisma)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="65455c45-98a8-409a-a5e9-9bf6027d6fd6" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenDeftness" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h42eee6b8gcf24gb644ga863gec7e88783124" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h713ef58ag6885g241dg892dg360a58b63ba9" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Ability,Dexterity)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenDeftness_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenDeftness_Nega') and HasStatus('MutagenDeftness')):ApplyStatus(MutagenDeftness_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenDeftness_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="42ecc944-6baa-4d68-9986-222bc0ec1cb4" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenDeftness_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3469641cg2025g17c2g1d13g818e2195a226" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h797be911ge62eg1577g76e5gea717f16f97b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability,Wisdom)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="605e2fb7-fd14-4181-8afe-d38c976c28d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenEmbers" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h385cc37egec8cg4f7ag5cfbg7c34919af709" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc9ff26c3g5924ga3eeg8de2gc60539712c04" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Fire,Resistant)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenEmbers_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenEmbers_Nega') and HasStatus('MutagenEmbers')):ApplyStatus(MutagenEmbers_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenEmbers_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="036814d4-6360-4bd9-8e28-080693994783" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenEmbers_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb0ee1938g77b9gf3f2g490fg64c0718e4ea9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha6f11d65gc97cgc1d7ge126ga543f56cbb19" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Cold,Vulnerable)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="26489f47-3601-4674-b96c-38f4236e7ef2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenGelid" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h36922877g52feg4527g5bb9ge9e3bc71a2af" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h91837aacg5990gd4bcgd9cagd394db237a51" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Cold,Resistant)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenGelid_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenGelid_Nega') and HasStatus('MutagenGelid')):ApplyStatus(MutagenGelid_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenGelid_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d2617886-cbd5-42de-8fef-3d1002b42196" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenGelid_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h545e2c77gf50fg73e8g021cg69eb5b588515" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6203b4b1gb756g9469g88acg3f4bb3b67556" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Fire,Vulnerable)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e5e1b848-5cfa-4817-b9ab-71f1e0efa069" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenImpermeable" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfa8cb84fg66fbg6ec7g08aag65afc90a6b0b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfd1bab85g152cg1c5fg9359g2b77dd9099d9" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Piercing,Resistant)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenImpermeable_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenImpermeable_Nega') and HasStatus('MutagenImpermeable')):ApplyStatus(MutagenImpermeable_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenImpermeable_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="14248053-c853-4b6e-a73d-21c1c377d641" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenImpermeable_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h24f184aag6dcfg08bagd073g5a4c32ea40ae" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd27aae06gf8a1gaa89g9f3eg9bac9c1596cd" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Slashing,Vulnerable)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9589feb1-088b-4ee5-9ca2-015cb302255c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenMobility" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdc15346cgbf5eg3e28ga29cg68bdbc0599a6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h721ea0b9g62f4g51ffg7056g353ba788907f" version="5" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(GRAPPLED);StatusImmunity(SG_Restrained)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenMobility_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenMobility_Nega') and HasStatus('MutagenMobility')):ApplyStatus(MutagenMobility_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenMobility_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90c691a5-ce99-465a-a7c1-254b972c4f0c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenMobility_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha929123cgff5ag6312g6f5bg80168a8efff0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8858dee8g2626g1464gb2b9gefe934aa3e7a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability,Strength)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="af23c7ea-b824-4627-9518-cb1fce0d6fda" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenNighteye" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hda7a673cg243bgfd56g95c2g59044ad7734e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7dda7057g2ccbg6df9g9748g9b30cfacfd8c" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenNighteye_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenNighteye_Nega') and HasStatus('MutagenNighteye')):ApplyStatus(MutagenNighteye_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenNighteye_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e89874e6-c6a4-4ac5-8b39-037d253e3323" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenNighteye_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd62dae12g5766ge42agf4d3g6a9cd1de97fa" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf39f902fg55dfg9cc8g7778g540d3f280319" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AttackRoll);Disadvantage(Ability,Wisdom)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f3da78b-c764-4413-9416-85691a0a8c89" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenPercipient" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha147b48bgc339ga2a9g5be3gcd4ca07691e7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h52316c19gac35g858bgdbebg9d8aa3ebd958" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Ability,Wisdom)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenPercipient_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenPercipient_Nega') and HasStatus('MutagenPercipient')):ApplyStatus(MutagenPercipient_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenPercipient_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0c2d72d3-60fc-46b4-ab29-60e4a5cc3ef9" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenPercipient_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6e1c950fgc161g2a62gee9ag429e9367d03f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h49e6a108g6e37gc69cgd44cge8c8d6a3d96a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability,Charisma)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec547cb0-3407-46fd-902f-0f61b00e5f43" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenPotency" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha175a1ddg53acg9219g3300gb5f1bf2e2fe1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0413f60fge192gd582gd109g5cfe83f525b9" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Strength,3)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenPotency_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenPotency_Nega') and HasStatus('MutagenPotency')):ApplyStatus(MutagenPotency_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenPotency_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e6ac4bb4-6340-4d93-8d4d-a01db099cad5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenPotency_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6f8135abg4c44ga641g02c9g60c723963423" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8d57015cg3ad3g53f5g6dccg80fae63e12ba" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(SavingThrow,Dexterity)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="608aa2b6-4e2b-43e8-80de-9f37c90e1c24" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenPrecision11" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1ae696aeg0f2fg8e04g29e7g8600f4009f19" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha07c9a62g7260g785fg2a08g5f2a637f9196" version="4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ReduceCriticalAttackThreshold(1)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenPrecision11_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenPrecision11_Nega') and HasStatus('MutagenPrecision11')):ApplyStatus(MutagenPrecision11_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenPrecision11_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5041beb0-2bdc-4829-b913-9b9e13f56a50" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenPrecision11_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h80aca7fegf12cge7d8g1f61g96c3d2781c83" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf141809cg20a0g6093geb01g81d9161610b3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(SavingThrow,Strength)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d4ab0965-287e-45d0-9a99-4da0b1ccfb4f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenRapidity" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc8489cd0g08b2gb4d9g9531g5d2f4b18e530" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbc7f8dd0g3870g7924g8e8dg3b6c68cd1178" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceConsumeMultiplier(Movement,0.5,0);JumpMaxDistanceMultiplier(1.5)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenRapidity_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenRapidity_Nega') and HasStatus('MutagenRapidity')):ApplyStatus(MutagenRapidity_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenRapidity_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="51ae2e1a-8e82-49a5-8275-f736afc2d945" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenRapidity_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h938a5736g5118gdfa3g8e36g49005496a236" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdb65d162g5f20g7dc1g1badgb09d4a487d03" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability,Intelligence)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="67060972-578b-4a26-a9de-ef985c712e2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenReconstruction7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hac5f8fefg6c12gf430g0451g35dcdf58225c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h909434efg0489g76c9gc0d6g1766824ef3b0" version="4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1d6);IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenReconstruction7_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenReconstruction7_Nega') and HasStatus('MutagenReconstruction7')):ApplyStatus(MutagenReconstruction7_Nega,100,1)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenReconstruction7_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3771b872-8ef1-4c50-8ccd-5623595680ad" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenReconstruction7_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9cde0ea4ge7ceg14eegd436g0b8ab883b9a6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he9bcfe90g0825gefa2g784cgc9b56806e3d3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceConsumeMultiplier(Movement,1.5,0)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3c356b5c-1d61-4efe-a7fe-0d6eb0cca70c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenSagacity" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc15c5633ge5e4gbe9dg2591g7b46c3fa5cd1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h95225fd9g969cgfdf2g2549g0e003458bf20" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Intelligence,3)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenSagacity_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenSagacity_Nega') and HasStatus('MutagenSagacity')):ApplyStatus(MutagenSagacity_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenSagacity_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c3bc946-f7cc-4919-ac35-88f56f23aa68" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenSagacity_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha96c007ag414fgdb16gd990g01ef877db89d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfa04d92eg9215gb0efga905gbb397a272936" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(SavingThrow,Charisma)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0224d1c5-4314-4508-babf-d8f25ae79eb7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenShielded" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heda0fb8dg25a8ge5ebg9f1bg8e5dd165d9aa" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he251d5f5gc205g3099g7356g92c21a1f357a" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Slashing,Resistant)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenShielded_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenShielded_Nega') and HasStatus('MutagenShielded')):ApplyStatus(MutagenShielded_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenShielded_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="91eaa9f5-e981-4a4c-b21d-f39a956efd38" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenShielded_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7d830d92g7f4eg3e81g36c0gf9547e15eeab" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0e847c13g8be3gef94gdd2bg79aaf4ee84ed" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Bludgeoning,Vulnerable)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ad14005e-3261-4584-b8e6-e0d8bbb86004" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenUnbreakable" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc0f2048ag92f1gf403g8282g82678988fb67" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9322e6bdg1af9gf7edged8dg3b3f7fc849d7" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Bludgeoning,Resistant)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenUnbreakable_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenUnbreakable_Nega') and HasStatus('MutagenUnbreakable')):ApplyStatus(MutagenUnbreakable_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenUnbreakable_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f93fb8d3-8345-4e57-aa49-84d5141509d9" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenUnbreakable_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he509d3fbg62ffgeefagac81g4e7fe102ada4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h21d3067bg2265g830ag215fgece808cc9945" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Piercing,Vulnerable)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe408134-ba3e-439c-949a-db227821224c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenVermillion" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h54b05df5g0591g8db1g60b9g467bce237cb8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf04d656fg1868g0edbgf0b8g9d6d0c2daae1" version="4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(BloodMaledict,1,0)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenVermillion_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenVermillion_Nega') and HasStatus('MutagenVermillion')):ApplyStatus(MutagenVermillion_Nega,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenVermillion_Nega)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="937739bf-a006-4d01-a731-9273ff171424" />
+        <field name="Name" type="NameTableFieldDefinition" value="MutagenVermillion_Nega" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb9a946e2g0fd7gfc07g5a9fg670c07b0b043" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h02fc61b7ge0a0g9c9bg67d3gcfb2f4134397" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(DeathSavingThrow,)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21c03250-8212-4dcc-87c4-7d2759c1d3c5" />
+        <field name="Name" type="NameTableFieldDefinition" value="ExaltedMutation" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hac8c72d7g7d23g61f6g3a54g0a19d5cde7ba" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha2af9db6g05f8g59e4gdbd1ge090dd4b6f7d" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Dexterity,2);Ability(Intelligence,2);Ability(Strength,2);Resistance(Piercing,Resistant);Resistance(Slashing,Vulnerable)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7d958e5b-d0b3-40c1-a598-203eec499046" />
+        <field name="Name" type="NameTableFieldDefinition" value="BRAND_OF_AXIOM" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h44ea1f36g3b59g1f1eg3051gd0bc718cbe0b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf27d4e5cgfe20gc935gd977g260a15553647" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Psychic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BrandOfCastigation" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CASTIGATION" />
+        <field name="Passives" type="StringTableFieldDefinition" value="BrandOfAxiom11Brand" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Light" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bd5f68f6-8821-4368-85ca-b185840424e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="BRAND_OF_AXIOM_OWNER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h73996d2ag0067gf126g3405gd8efe4283b30" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h561975b0gb3fega445g111cgc523d1fc3d29" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BrandOfCastigation" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CASTIGATION" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Castigation" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="62d30798-dba9-441e-8985-f0a3d9a64474" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLOOD_CURSE_OF_CORROSION" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7d1ccf26g7d69gff90ge59fgbacd60b66089" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc1865feaga4f4gfbd3g895dg81c5a26e8d18" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d6,Necrotic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_Poisoned" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Poison" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="POISONED" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AttackRoll);Disadvantage(AllAbilities)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(4d6,Necrotic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(4d6,Necrotic,Magical)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Poisoned;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="fa688204-319c-41b2-88d9-7b619d17aed4" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="ceeda0ca-0739-4588-a449-d024389f0c2a" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f04cad57-b9bd-4185-a16e-08d4db81c038" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutagencraft" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3b4eac1eg0a40g945eg4f82gcb0f3b4adf72" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfd39bc80g4afbg218dg68ffgb0cc9d3158fe" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f293495-29ee-46b6-a199-78d50f57273d" />
+        <field name="Name" type="NameTableFieldDefinition" value="FlushMutagens" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1899796cg3a61g95fbg2826ga75d0244c22b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4ca60076ge94eg3eadg02b5g951a88a1b628" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ArmsOfHadar" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_FlushMutagens)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fa88d0b9-691a-42d9-831f-edc7258d2b83" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutagencraft7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f04cad57-b9bd-4185-a16e-08d4db81c038" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha50aacefgdc88gad66ge793gf8619209fc18" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb42a7ea6g0842g632cg25d1gd29fa720ec73" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1e08d3b7-f3c1-4f42-90f0-d1514f1f8ead" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutagencraft11" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fa88d0b9-691a-42d9-831f-edc7258d2b83" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h56d0c3d9g5fa0ge8a8g5026ga717ebc95092" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h87756561g7845g140eg9136gdb44316556dc" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c948399a-dd5d-49ae-8d7f-e3f8c60ccb7d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutagencraft15" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1e08d3b7-f3c1-4f42-90f0-d1514f1f8ead" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd2c1e4b9g6fb4g794dgc401g5d02eb8b57b6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h52eb8c0cgab5cgcb21ge3c9g573ced09a2b4" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a8e326a-7618-4505-af3a-b6a8b6595a4f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutagencraft18" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c948399a-dd5d-49ae-8d7f-e3f8c60ccb7d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h712466a4gdae8g546dgfea6g3597c57d6669" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hadcfdccdgad2fgdf5fg571fgedbcf3d487c6" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3d2457e1-9870-48db-9360-7535457c6141" />
+        <field name="Name" type="NameTableFieldDefinition" value="StrangeMetabolism7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha4f3d9b2g7910gac6bg7b1bg351e1562146e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he68ee957g5d79g110bg4c87gd0abb8452902" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_GaseousForm" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Poisoned);Resistance(Poison,Immune)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d9fe7a6c-a1fc-4f87-9852-de7afeb1e9a6" />
+        <field name="Name" type="NameTableFieldDefinition" value="AdrenalineBurst7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd164ed0cg9e73g5f3cg5af6gb3e73275f2f7" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1017e7f9gcfd1g4682g4150g29108e6ae3b1" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_AdrenalineBurst)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ac90c8e7-7e85-49d6-97b4-07c9276b17a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="BrandOfAxiom11" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7113218ag95a5g0559geb26ge97d9aca79fb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h33605817gc9b0gd3c1g89d4g2b817ea797e5" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BrandOfCastigation" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Psychic)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_BrandOfAxiom)" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('BRAND_OF_AXIOM') and HasRiteDamage()" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(IsFrozenRite()):DealDamage(LevelMapValue(HemocraftDie),Cold,Magical);IF(IsFlameRite()):DealDamage(LevelMapValue(HemocraftDie),Fire,Magical);IF(IsStormRite()):DealDamage(LevelMapValue(HemocraftDie),Lightning,Magical);IF(IsDawnRite()):DealDamage(LevelMapValue(HemocraftDie),Radiant,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4aeede76-8391-43e8-aa5a-3ace2824c947" />
+        <field name="Name" type="NameTableFieldDefinition" value="BrandOfAxiom11Brand" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h253191d4gf669g6971g77f3gb0c53542e3f8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9b680ee9g79f2g2910gb9ccg933dc857118b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BrandOfCastigation" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="GameplayLight(9,false,0.1);StatusImmunity(SG_Invisible);StatusImmunity(SG_Invisible)" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not Self() and CastigationCheck() and Character()" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,CASTIGATION_SELF,100,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="57834ebc-733f-42e0-9e99-a427898569e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="BloodCurseOfCorrosion15" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9aada0eag5c9eg1223g9ac3g5bcea2ce6631" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7a63a7a5g7b24geec4g3038g8d0f8f249cd2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_SpikeGrowth" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_BloodCurseOfCorrosion15)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a0f89ba-724e-45ab-b5fd-8828837bd608" />
+        <field name="Name" type="NameTableFieldDefinition" value="ExaltedMutation18" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h06bb96b1gebf3gbb72gc39bga18ddd37b8a6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h49eee6bcg4f8bgf01dg3661gb449513c4f0a" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Thaumaturgy" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ExaltedMutation)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
