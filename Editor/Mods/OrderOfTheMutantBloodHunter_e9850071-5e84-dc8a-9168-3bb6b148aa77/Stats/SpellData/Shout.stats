@@ -7,20 +7,18 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenAether11" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2db58e38g20e6gcb5eg9deeg9acc6641c274" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h650cafe9g3680g0918g2c5cgca16d8a064b3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hebeb73e5g31ceg4d57g9f37g2a1f02c9e9a2" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(48836c42-346b-4c9f-bb9d-d06bf0a8ff59,-1,1,false,false,false,,,)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Surge" />
-        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Surge" />
-        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft11', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -29,22 +27,18 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenAlluring" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he89e3a3eg1104g411dg8218g9fd47587270f" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h52487702g694dg74a3g8b4eg5de0e7b64504" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h04d95eb6g062ag31e7g02cbg762294fb01ce" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(cd6b434b-af05-4548-a5ff-0dbec5081015,-1,1,false,false,false,,,)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Surge" />
-        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Surge" />
-        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2550e2bb-c9f9-4440-9cd4-146a03f2e9bc" />
-        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="DontChange" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -53,17 +47,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenCelerity" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb1b131c6g2a35ge7abg132cgc1499303d357" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5bc279b7g8afeg9bb5g3319g7fc868332a08" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1fb29fb8g59adge27dg3694g0948537e3a40" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(af68855e-0896-47d1-808c-8c19fd9da5d2,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -73,17 +67,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenConversant" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h96f9d6e7g5262g006egb819ga4e6b0e6e974" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he1a748fbgd8f1gdaf9g54eegaf0976ffe1a4" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1f861d78g5220gd632g0261g2e519775ad71" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(f0950ce7-ce33-49d2-9acf-606e734506c1,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -93,17 +87,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenCruelty11" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6d53f7f7gbea6ga10ag67eag77266a90d12c" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4642cf8egc34cgf82egf0begf53c8d6bd4e9" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hde59a568g98bdg639bgf0e0g499000e417b5" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft11', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(99ef6972-da65-4947-ab8a-d3f332b7bb16,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -113,17 +107,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenDeftness" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1cceeb91g087bg8409gfe8fg2f391d02c2f7" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7394d133gdb17g0ebag02fdgf1e51f911c46" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8de514fdg25fagf457g1a10gf749c6113a5b" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(fc0a8ff1-91a4-451c-86d3-c7006ff6eb9e,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -133,17 +127,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenEmbers" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb9b0c626g64d2geaa2gfda5g95bdbca2673c" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb6f981bfg15bcgf9b8g989fge33607b67d69" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf1f48237g20d7g8c51gc37eg012f2d264e04" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(1fa01305-8d05-4e02-9cce-9ed30a9d1086,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -153,17 +147,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenGelid" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h89ac7702g2d59g4e23g2f89ga2c9f82d8016" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9561aab0gf14egca6cgf37dg433998e94c84" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf8bd72c7ge919gc30eg6845gab3ec4f73abd" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(df0b7fdb-328e-4395-962f-cd8eb2c5355b,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -173,17 +167,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenImpermeable" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6794f85bgaf22gec94gfa2bg700aab484397" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h21b6b3cbg1c3eg59f4gf37egfa6566223c8f" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb8f6c23cg84ccgfb72g24fbg1bc4538fff6f" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(2673e38d-c9a7-44af-b0c5-2a630fc2cb1d,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -193,17 +187,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenMobility" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h99c59654g72afgc919gfc2bgfb74d7362e9e" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h20506827g2edbg321dgcd10ga6f6a302fca5" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3201ab53g1a17gb2cag5945g162fd52caf4a" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(c3d93262-ec2b-4352-bae2-9be47dfbbeef,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -213,17 +207,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenNighteye" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4b69a15dga09eg8f17g96c5g8d49a191d180" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha1e7b131g940dg5eb2g47eag92330a747372" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h738c1a67g2783g67cbg5029gdbbf0d178a99" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(18ad77a9-430d-4ff0-8d23-a6b488d9659a,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -233,17 +227,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenPercipient" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h32fb42feg8b8bg05abg1aaegc4268312d9ae" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he95d50ffg8a55g2b5cg91c5ge1ecdd8637aa" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h47a78355g1ae6gfd2cga887g5394cee1b880" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(8bb7060b-757c-4f6e-b155-5aef8aeb43fa,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -253,17 +247,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenPotency" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd3ab4f2dged14g7610g8255ga0180d7a908c" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h418d4896g0c30g7d11gdc38ge21beabd67d0" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6a5c3fe4gb732g4fdbg6f3eg0905b173ca4c" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(3202749f-3275-4b3e-ada3-56461501f92d,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -273,17 +267,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenPrecision11" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9262a3f3g3f45g6a42gf433g2548628d1280" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he9f2d4b0g247dg7ffdg1e7dgc1a7a23d8bfd" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd131cec8g5a1bg0661g77fbgea1b449a9f4c" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft11', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(f172c2fc-e29a-44ea-8e5d-087a75db94ad,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -293,17 +287,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenRapidity" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h32f6822egc485gda8ag93a8g982552e1bf60" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haf258880gc6ffgd3e2gcf40g9ae793baf509" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heb4c2d43gbe75g2a78g6b52g3829f51846b8" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(aed3909c-1316-4f5c-bece-78b6621f5cf1,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -313,17 +307,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenReconstruction7" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf90a1dbg1fa2g16a0g070dg2705a9bf4397" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1e11087ag87b2gff0cg73d3g52bfefa9d343" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0a7a06e3g5f81g9491gff91gc93a2e2bd332" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft7', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(61736276-a0da-46c6-af30-993d6ba813db,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -333,17 +327,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenSagacity" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf827b26fg9eccg6237gfe3cgc4494139f4c3" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h99c986fbg6161g2f17g3588g730577972f28" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1d9a999cgf1e7g8323gd273g7482ab3fbd54" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(7fba469b-037e-468f-a3ca-7f66f7d4f02c,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -353,17 +347,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenShielded" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h54e191e4gd5d8g7db8g2c2agd40061d9923d" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h921ec3e0g12bbge791g3bc1gb95bb24c22e1" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h599fca4bg1b06g40b1ge839gd52233abf90e" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(d3073f94-9400-4ad9-9f9e-f17b586ad88e,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -373,17 +367,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenUnbreakable" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h73ea31b2gd0e0g9402g819cg20d1c50992eb" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hee22366eg8425gee47g9261g5c01dff5e14b" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha16d05begec0fgaa00g33ddg08d120fb72ca" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(843afaa7-108a-47d7-8788-717b1fddd9ca,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -393,17 +387,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenVermillion" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h19a3b6f4g6930gfb88g8959g7735867395a6" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb4169a0bg4a45g6e5bg0aa9gf69bc0aca48d" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MagicAllergy_Enlarge" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h00037a44g5f7dg441eg7b97g17e879c09392" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MutagencraftSlot:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;,,;a5f780fe-eb51-4fe6-9f80-6bede367bac1,,;a1dfb8d2-f40d-4c94-8564-d7dddf178b4e,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="49dd385f-fd25-4372-8628-30b775af7c79" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b50decc3-5f93-4467-8d3a-aa8b01fc915e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="61249cfa-bb68-4fd4-9517-b527fe7dbdce" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2673d9af-0f0c-4f5e-b3ea-cf64c56ae08a" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(2bbdfd87-1505-4d18-a701-2b8b72d52c50,-1,1,false,false,false,,,)" />
       </fields>
     </stat_object>
@@ -423,20 +417,21 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb34d593dgdf1eg7740gf0ccgee168c0817e9" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcb625ebfg0267g00edgc9a8gf751d1622b04" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hadee1284g1993g81e6g7421g6eb2dc1843dc" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenAether11,100,30)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft11', context.Source)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="HitAnimationType" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -446,15 +441,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75f9ce31g09ffgf14cg5c2fge9cc995d78c1" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ba36c48gbdd8g534eg2e7cg14c2b368f4b0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdcdf5267g2dd2g7001gde7ag7ad25f9033d9" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenAlluring,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -464,15 +460,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4b2ae887gd106gf60egb836gd958c1c5dbf5" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h819c397bg24eeg61f2g95cdgf1d7fd9bd2a8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha7835134g29b6gf244ga78dgcc3b5fe70fd9" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenCelerity,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -482,15 +479,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd99b82fcg7974gb1e2gaae6gd1a945e0b859" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4d0f0511g80b1ga56fg3f96g58ab95ef4f3c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3e9fe325g27bcgb83fgb4a6gd4241df6c841" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenConversant,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -500,15 +498,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h11e751edg3403gc34eg5f41gf6e4753c9879" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd1393906gd10agc2d9g27b2gb77186dd7e85" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h14e6872bg3efcg0ca7gb6b8g776621cd68cf" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenCruelty11,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft11', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -518,15 +517,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h48a60b97g0ebegdfa2gf1dfg5ac0db32d687" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h24bfae19g05abgc0deg797bg83a1732dbf85" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haf760d55g63c4gb635gf445g8e422b74d41d" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenDeftness,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -536,15 +536,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4373c7acg710fgf5d4g8295g6a02c792aa98" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ff26004gd55ag7092g8dcag3dcd7f926fe7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5da3856g44f9g1309g496dg08ee453bd8f0" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenEmbers,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -554,15 +555,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0e80ad68gd212gb41cg207fg0b6b6ca488eb" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha8fdd692g5cdegf830g5177gc16d177d423a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h404308b8g3ccbgf7b6g9f0cgd4f98947944e" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenGelid,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -572,15 +574,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf5179326g5643g374dg3fbcg80f7ee78c3d1" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h60472d7eg12eag12d4g29ddg5f30d45873d8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2a56990eg1cd0g8b41g7232gb41b9c316943" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenImpermeable,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -590,15 +593,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb553e884g75d2g8147gf8aag4bfd456efac9" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h79ba6974g5c14gdaadg27b7g78a17d17d37c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf344d9f6ga9fdg5ad6g16f4gcea5321bdb44" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenMobility,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -608,15 +612,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h554b8657g648ag22a0g0539g867cfc6fa551" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbabb010bg6492g0be9gb72aga4ce86c2c859" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb26aef57g46c0ge577g7d45g1889dbb04aaa" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenNighteye,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -626,15 +631,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h89262a81gda81gec8fga748gf331cff0fb04" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h844f1139g4205gd44ag8dadgdc67537e634e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8c56db46gf98cgee81gc1f1g93ccf8113e62" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenPercipient,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -644,15 +650,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf6150122g1856g78fcgf477g89cfb1c79eb7" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h49ea4776g3450g0e54g3189gcd14f0adc65e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0ac26473g2fb1gb9fbge0d3g15c234026e94" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenPotency,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -662,15 +669,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h135558b8g0989gd531g5205g64d50e6e3d8f" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7234b906g7c0eg4b91g2d1dga38976ee8be3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha2a82162g09adge903g9ba0ge184a53e2fab" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenPrecision11,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft11', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -680,15 +688,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h37818ad3g22e8g8d2egc680g4a22485e6287" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha8e8ba4dg8061g760bg3d1ag4671977dcd04" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc6f32a44g62a2g9332g4d58g7fb074996beb" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenRapidity,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -698,15 +707,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h87106e07g3e78g8c2cg7c4bgd90e41a2eeb0" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h998be907gae10g4adeg1d07g1480b1aa6b5c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h92a75083g9b59g6801ga88ag4d160768a43e" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenReconstruction7,100,30)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft7', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -716,15 +726,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h86a45d69gff23gf321g657bg37fa045ffd84" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hae6df996g48e3g44fbg52c1g9ce2bd6876cd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8e671313gb6e0g3906gef6bg9028e68c4f71" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenSagacity,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -734,15 +745,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9085cbc8g9d8fge800ge0afg343397663512" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1a5e006agac1fg4d1eg4904g74da834509aa" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcfa96849g7cc1ge8bfg37dag6ab678d7074e" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenShielded,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -752,15 +764,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0264150cgd9f0g3214gdb22g10d510b7578c" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdd28ec70g07d7g8b9egbf4cga2fbfdcc9bd2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8f3f5464gd752g6cacg3192g0126a6e0284f" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenUnbreakable,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -770,15 +783,16 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h813e339cg71f0g559ag0ad3g9cc01ea588a0" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4181cc64g73a1gdc23gda03g8a8cbcdb8d2f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h33a35b53g91e5gccc0g1831g406a47fadaa2" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenVermillion,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
       </fields>
     </stat_object>
   </stat_objects>
