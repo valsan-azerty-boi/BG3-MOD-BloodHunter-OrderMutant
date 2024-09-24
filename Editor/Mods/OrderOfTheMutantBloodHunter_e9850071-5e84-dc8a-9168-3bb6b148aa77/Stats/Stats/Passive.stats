@@ -118,6 +118,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7a63a7a5g7b24geec4g3038g8d0f8f249cd2" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_SpikeGrowth" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_BloodCurseOfCorrosion15)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -128,6 +129,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h49eee6bcg4f8bgf01dg3661gb449513c4f0a" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Thaumaturgy" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ExaltedMutation)" />
       </fields>
     </stat_object>
   </stat_objects>

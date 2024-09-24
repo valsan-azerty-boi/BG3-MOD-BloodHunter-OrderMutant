@@ -83,6 +83,7 @@ data "DisplayName" "h9aada0eag5c9eg1223g9ac3g5bcea2ce6631;1"
 data "Description" "h7a63a7a5g7b24geec4g3038g8d0f8f249cd2;1"
 data "Icon" "Spell_Transmutation_SpikeGrowth"
 data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Projectile_BloodCurseOfCorrosion15)"
 
 new entry "ExaltedMutation18"
 type "PassiveData"
@@ -90,4 +91,5 @@ data "DisplayName" "h06bb96b1gebf3gbb72gc39bga18ddd37b8a6;1"
 data "Description" "h49eee6bcg4f8bgf01dg3661gb449513c4f0a;2"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_ExaltedMutation)"
 

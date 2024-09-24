@@ -524,5 +524,29 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Castigation" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="62d30798-dba9-441e-8985-f0a3d9a64474" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLOOD_CURSE_OF_CORROSION" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7d1ccf26g7d69gff90ge59fgbacd60b66089" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc1865feaga4f4gfbd3g895dg81c5a26e8d18" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d6,Necrotic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_Poisoned" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Poison" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="POISONED" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AttackRoll);Disadvantage(AllAbilities)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(4d6,Necrotic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(4d6,Necrotic,Magical)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Poisoned;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="fa688204-319c-41b2-88d9-7b619d17aed4" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="ceeda0ca-0739-4588-a449-d024389f0c2a" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
