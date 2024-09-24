@@ -108,26 +108,6 @@
   <content contentuid="h9322e6bdg1af9gf7edged8dg3b3f7fc849d7" version="1">You have resistance to bludgeoning damage, and you have vulnerability to piercing damage.</content>
   <content contentuid="h54b05df5g0591g8db1g60b9g467bce237cb8" version="1">Vermillion Mutagen</content>
   <content contentuid="hf04d656fg1868g0edbgf0b8g9d6d0c2daae1" version="3">You gain an additional use of your Blood Maledict feature. However, you have disadvantage on death saving throws.</content>
-  <content contentuid="h1c9ce123g6f1cg2643gcdcbg20b1aa7f8d1c" version="1">Create Mutagen "Aether"</content>
-  <content contentuid="h6a9c66a0g8454g73ebg97e9gb286fe3ba7f5" version="1">Create Mutagen "Alluring"</content>
-  <content contentuid="h68f3c821g423bg9a6fg4455g4cec9dcf3712" version="1">Create Mutagen "Celerity"</content>
-  <content contentuid="hbf4c35f7g079agd540ga840g85c160111ac1" version="1">Create Mutagen "Conversant"</content>
-  <content contentuid="h04e26a15g1bbcg323fgb601geeaa5a325be8" version="1">Create Mutagen "Cruelty"</content>
-  <content contentuid="hcc7ad26cg6a5cgba58g0d69g2e3d6da1d6fd" version="1">Create Mutagen "Deftness"</content>
-  <content contentuid="h25335a6eg57beg4e08g873agfb725ce1fad4" version="1">Create Mutagen "Embers"</content>
-  <content contentuid="h94ca91a8g607ag0522g8853g7b28de2fc295" version="1">Create Mutagen "Gelid"</content>
-  <content contentuid="h77d0da35g07afgbf7fg3c55g79de6e91265e" version="1">Create Mutagen "Impermeable"</content>
-  <content contentuid="h17be2f7bgd7aeg8a3cg4748g631473b89755" version="1">Create Mutagen "Mobility"</content>
-  <content contentuid="h694df4b1ge3c4ge6c8g6039g983f1838a152" version="1">Create Mutagen "Nighteye"</content>
-  <content contentuid="hcedaffd5g2d69g5522g2a26g536355b89d08" version="1">Create Mutagen "Percipient"</content>
-  <content contentuid="hf3ba483egbf26g29f7g456fgb80f32c956ea" version="1">Create Mutagen "Potency"</content>
-  <content contentuid="h70ac72degf1f3ge9e6g6b75g824cad6e57b5" version="1">Create Mutagen "Precision"</content>
-  <content contentuid="h3137143dgd0deg7e9dg9790g93a80d3831bb" version="1">Create Mutagen "Rapidity"</content>
-  <content contentuid="ha0c43754gd3ffg1617g664ag283b1e978468" version="1">Create Mutagen "Reconstruction"</content>
-  <content contentuid="h81de2cb2g0fa0g8b2cgc068g26182dc5b00b" version="1">Create Mutagen "Sagacity"</content>
-  <content contentuid="h1c6aada2g73bfgd49ege7f3g9d3c2eb7e82b" version="1">Create Mutagen "Shielded"</content>
-  <content contentuid="hff458003g47ffg4305g3d97g2cbf6692752e" version="1">Create Mutagen "Unbreakable"</content>
-  <content contentuid="hcbb8655ag0168g0ab8g2b97g44cccb028aaa" version="1">Create Mutagen "Vermillion"</content>
   <content contentuid="h145c570eg4f7cgaaf1gbe4bg6d578a5793bc" version="1">Mutagencraft</content>
   <content contentuid="h8be5ce8dg162eg2cd9gb825ge62da5c64a0d" version="2">You can craft a limited number of mutagens each day.</content>
   <content contentuid="hf8c0975bg8230g603fg5cfbg7590938a1af7" version="6">Mutagen "Aether"</content>
@@ -170,26 +150,6 @@
   <content contentuid="h9ba9ceefgbd58g0953g3e18gdb19647d6274" version="2">A Blood Hunter mutagen.</content>
   <content contentuid="hf30e77c5g776agb84cgca34g3f15dc9e5433" version="2">Mutagen "Vermillion"</content>
   <content contentuid="hefeac7ccgf43ege5f8ge6c4g5efe54569015" version="2">A Blood Hunter mutagen.</content>
-  <content contentuid="hb3f2decdgfb0cg882ag02e0g985027b59a1d" version="1">You gain the ability to fly for some time. However, you have disadvantage on Strength checks and Dexterity checks.</content>
-  <content contentuid="h495136eeg7341gba96g6109gdeb3c9ea21f1" version="1">You have advantage on Charisma checks. However, you have disadvantage on initiative rolls.</content>
-  <content contentuid="h3b28187fgef44ga39fg6353gc4603f9f071b" version="1">Dexterity score is increased. However, you have disadvantage on Wisdom saving throws.</content>
-  <content contentuid="h907fc637g2bedg5345g6be6g827e4d15c6c8" version="1">You have advantage on Intelligence checks. However, you have disadvantage on Wisdom checks.</content>
-  <content contentuid="h8b8fcd7bg0e90ge0c7g1d2bgb9e270ab5cda" version="1">When you use the attack action, you can make one additional attack as a bonus action. However, you have disadvantage on Intelligence, Wisdom and Charisma saving throws.</content>
-  <content contentuid="h03a02d9bgfd67gb573g99b0g01f58e541dee" version="1">You have advantage on Dexterity checks. However, you have disadvantage on Wisdom checks.</content>
-  <content contentuid="h3e0ad1eeg0c30g9a68g8bc2g24858d2f3467" version="1">You have resistance to fire damage and vulnerability to cold damage.</content>
-  <content contentuid="h1d3d78e9g7c62gfa5ag14dfg7f9222b4d83f" version="1">You have resistance to cold damage and vulnerability to fire damage.</content>
-  <content contentuid="h515fc81agc0d8g087fgb597gc9427ab3b395" version="1">You have resistance to piercing damage and vulnerability to slashing damage.</content>
-  <content contentuid="hbd4498b9g1ad1g9330gd943gb59c43d078d6" version="1">You have immunity to the grappled and restrained conditions. However, you have disadvantage on Strength checks.</content>
-  <content contentuid="hc0a7ae46g5312ga788gb1aagd039b2fff13c" version="1">You have darkvision. However, you have disadvantage on attack rolls and on Wisdom checks.</content>
-  <content contentuid="hb642a940g4befg99f7g6831gbd11e0ab0094" version="1">You have advantage on Wisdom checks. However, you have disadvantage on Charisma checks.</content>
-  <content contentuid="h58753d90g4325gfe6bg3c30g432e2c4afd20" version="1">Strength score is increased. However, you have disadvantage on Dexterity saving throws.</content>
-  <content contentuid="hda7f3984gad3dg3f8dg2efegce36e5e17fbe" version="1">Your attacks score a critical hit on a roll of 19 or 20. However, you have disadvantage on Strength saving throws.</content>
-  <content contentuid="h929c1915gaf16gffb8gf2dcg9a5d2656f1a9" version="1">Movement speed is increased. However, you have disadvantage on Intelligence checks.</content>
-  <content contentuid="hf8085778g93daga895g0bffg33b610e19c6e" version="1">For some time, at the start of each of your turns, you regain some hit points. However, your movement speed is reduced during this time.</content>
-  <content contentuid="hd8d6e971g77f8g297eg1bbeg3f5d1034a2c0" version="1">Intelligence score is increased. However, you have disadvantage on Charisma saving throws.</content>
-  <content contentuid="h58fb0ad9gef12g5171gd7f4ge393f90449b8" version="1">You have resistance to slashing damage, and you have vulnerability to bludgeoning damage.</content>
-  <content contentuid="h93662f25g8ac4g5d84gc628gf5bbf053134e" version="1">You have resistance to bludgeoning damage, and you have vulnerability to piercing damage.</content>
-  <content contentuid="hb64d6cbfg68c3g002bgb9b8gb692ee386d3a" version="1">You gain an additional use of your Blood Maledict feature. However, you have disadvantage on death saving throws.</content>
   <content contentuid="hebeb73e5g31ceg4d57g9f37g2a1f02c9e9a2" version="1">You gain the ability to fly for some time. However, you have disadvantage on Strength checks and Dexterity checks.</content>
   <content contentuid="h04d95eb6g062ag31e7g02cbg762294fb01ce" version="1">You have advantage on Charisma checks. However, you have disadvantage on initiative rolls.</content>
   <content contentuid="h1fb29fb8g59adge27dg3694g0948537e3a40" version="1">Dexterity score is increased. However, you have disadvantage on Wisdom saving throws.</content>
@@ -230,4 +190,8 @@
   <content contentuid="hcfa96849g7cc1ge8bfg37dag6ab678d7074e" version="1">You have resistance to slashing damage, and you have vulnerability to bludgeoning damage.</content>
   <content contentuid="h8f3f5464gd752g6cacg3192g0126a6e0284f" version="1">You have resistance to bludgeoning damage, and you have vulnerability to piercing damage.</content>
   <content contentuid="h33a35b53g91e5gccc0g1831g406a47fadaa2" version="1">You gain an additional use of your Blood Maledict feature. However, you have disadvantage on death saving throws.</content>
+  <content contentuid="h62d60380g8738g81cag372cg33d6a05dbde7" version="1">Flush Mutagens</content>
+  <content contentuid="h09294f66g6366g52f4gf0eagf07ae89b5994" version="1">Focus and flush all mutagens from your system, ending their effects and side effects.</content>
+  <content contentuid="h9441fe99g1b93g7bcbg899cgbb6d953ae682" version="1">Adrenaline Burst</content>
+  <content contentuid="hdb797e20g0f03g9fe5g2441g09f27a5a28f9" version="1">To do TODO adrenaline burst</content>
 </contentList>

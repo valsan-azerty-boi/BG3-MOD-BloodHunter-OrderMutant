@@ -414,7 +414,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d57674aa-1c85-43f6-92bf-8c540220b630" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenAether11" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb34d593dgdf1eg7740gf0ccgee168c0817e9" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hadee1284g1993g81e6g7421g6eb2dc1843dc" version="1" />
@@ -438,7 +437,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3391e461-a966-4eb6-86ec-7020f80f98f9" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenAlluring" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75f9ce31g09ffgf14cg5c2fge9cc995d78c1" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdcdf5267g2dd2g7001gde7ag7ad25f9033d9" version="1" />
@@ -457,7 +455,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d5dbfb4e-9be3-4ac7-a57f-ad081fad0845" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenCelerity" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4b2ae887gd106gf60egb836gd958c1c5dbf5" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha7835134g29b6gf244ga78dgcc3b5fe70fd9" version="1" />
@@ -476,7 +473,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bee1c306-e8ad-4e71-8db4-3ebc852671a2" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenConversant" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd99b82fcg7974gb1e2gaae6gd1a945e0b859" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3e9fe325g27bcgb83fgb4a6gd4241df6c841" version="1" />
@@ -495,7 +491,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7dca8d39-415b-4042-9dda-9e4d6e6b0563" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenCruelty11" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h11e751edg3403gc34eg5f41gf6e4753c9879" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h14e6872bg3efcg0ca7gb6b8g776621cd68cf" version="1" />
@@ -514,7 +509,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0156d4d8-ce95-4b7b-93f9-0343f4706097" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenDeftness" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h48a60b97g0ebegdfa2gf1dfg5ac0db32d687" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haf760d55g63c4gb635gf445g8e422b74d41d" version="1" />
@@ -533,7 +527,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1bc531bc-74a0-4b3d-b62d-3d11e3ea6ecd" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenEmbers" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4373c7acg710fgf5d4g8295g6a02c792aa98" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5da3856g44f9g1309g496dg08ee453bd8f0" version="1" />
@@ -552,7 +545,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a3046c47-1d0a-4c5f-8ea7-1d0d99a9b5de" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenGelid" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0e80ad68gd212gb41cg207fg0b6b6ca488eb" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h404308b8g3ccbgf7b6g9f0cgd4f98947944e" version="1" />
@@ -571,7 +563,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5998f180-e405-4532-8eb3-3369262279fe" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenImpermeable" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf5179326g5643g374dg3fbcg80f7ee78c3d1" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2a56990eg1cd0g8b41g7232gb41b9c316943" version="1" />
@@ -590,7 +581,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="355f872a-ee38-4a32-9308-61fc88170a11" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenMobility" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb553e884g75d2g8147gf8aag4bfd456efac9" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf344d9f6ga9fdg5ad6g16f4gcea5321bdb44" version="1" />
@@ -609,7 +599,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2e9d11f2-3e78-4907-8b04-b7da72567eda" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenNighteye" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h554b8657g648ag22a0g0539g867cfc6fa551" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb26aef57g46c0ge577g7d45g1889dbb04aaa" version="1" />
@@ -628,7 +617,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3e6e5786-ae4a-4c4f-b043-d994b2008c8c" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenPercipient" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h89262a81gda81gec8fga748gf331cff0fb04" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8c56db46gf98cgee81gc1f1g93ccf8113e62" version="1" />
@@ -647,7 +635,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="63f7b7ae-9cfd-4d3f-8ac3-9d8c65d71538" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenPotency" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf6150122g1856g78fcgf477g89cfb1c79eb7" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0ac26473g2fb1gb9fbge0d3g15c234026e94" version="1" />
@@ -666,7 +653,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fa52c2de-041c-4e76-b742-8edb7f7077e4" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenPrecision11" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h135558b8g0989gd531g5205g64d50e6e3d8f" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha2a82162g09adge903g9ba0ge184a53e2fab" version="1" />
@@ -685,7 +671,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6db9aeac-265c-4040-b5a5-fbf7802b81f3" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenRapidity" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h37818ad3g22e8g8d2egc680g4a22485e6287" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc6f32a44g62a2g9332g4d58g7fb074996beb" version="1" />
@@ -704,7 +689,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b9d683d6-ac53-4336-bb62-c2268f237f00" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenReconstruction7" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h87106e07g3e78g8c2cg7c4bgd90e41a2eeb0" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h92a75083g9b59g6801ga88ag4d160768a43e" version="1" />
@@ -723,7 +707,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="26be956b-f2f6-4750-901e-b8b9086acfa2" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenSagacity" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h86a45d69gff23gf321g657bg37fa045ffd84" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8e671313gb6e0g3906gef6bg9028e68c4f71" version="1" />
@@ -742,7 +725,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c055ae48-4023-414d-9b7b-8ba856c9d23b" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenShielded" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9085cbc8g9d8fge800ge0afg343397663512" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcfa96849g7cc1ge8bfg37dag6ab678d7074e" version="1" />
@@ -761,7 +743,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c5387353-2c00-41ca-99ac-e56d32447ca7" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenUnbreakable" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0264150cgd9f0g3214gdb22g10d510b7578c" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8f3f5464gd752g6cacg3192g0126a6e0284f" version="1" />
@@ -780,7 +761,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d84c97ae-a86d-44e8-bef1-c8cf1ea363b5" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenVermillion" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h813e339cg71f0g559ag0ad3g9cc01ea588a0" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h33a35b53g91e5gccc0g1831g406a47fadaa2" version="1" />
@@ -793,6 +773,43 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8dfcdb48-314f-45d8-9c74-42084f3921e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="FlushMutagens" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SELF,MutagenAether11);RemoveStatus(SELF,MutagenAlluring);RemoveStatus(SELF,MutagenCelerity);RemoveStatus(SELF,MutagenConversant);RemoveStatus(SELF,MutagenCruelty11);RemoveStatus(SELF,MutagenDeftness);RemoveStatus(SELF,MutagenEmbers);RemoveStatus(SELF,MutagenGelid);RemoveStatus(SELF,MutagenImpermeable);RemoveStatus(SELF,MutagenMobility);RemoveStatus(SELF,MutagenNighteye);RemoveStatus(SELF,MutagenPercipient);RemoveStatus(SELF,MutagenPotency);RemoveStatus(SELF,MutagenPrecision11);RemoveStatus(SELF,MutagenRapidity);RemoveStatus(SELF,MutagenReconstruction7);RemoveStatus(SELF,MutagenSagacity);RemoveStatus(SELF,MutagenShielded);RemoveStatus(SELF,MutagenUnbreakable);RemoveStatus(SELF,MutagenVermillion)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ArmsOfHadar" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h62d60380g8738g81cag372cg33d6a05dbde7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h09294f66g6366g52f4gf0eagf07ae89b5994" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3c77b5fa-6a87-4f42-8c61-13479ef302e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="AdrenalineBurst" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_EnlargeReduce" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9441fe99g1b93g7bcbg899cgbb6d953ae682" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdb797e20g0f03g9fe5g2441g09f27a5a28f9" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
       </fields>
     </stat_object>
   </stat_objects>

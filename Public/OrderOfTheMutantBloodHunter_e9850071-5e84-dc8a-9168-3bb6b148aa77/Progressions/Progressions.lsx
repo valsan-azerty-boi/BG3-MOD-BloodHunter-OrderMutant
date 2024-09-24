@@ -30,7 +30,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="OrderOfTheMutant"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(MutagencraftSlot,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MutagencraftSlot,1,0);UnlockSpell(Shout_FlushMutagens)"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value="Mutagencraft"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(fffd1bda-4a5e-4625-bdf6-e6dd9d88e9d9,4,1,Mutagencraft)"/>
@@ -40,7 +40,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="OrderOfTheMutant"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(MutagencraftSlot,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MutagencraftSlot,1,0);UnlockSpell(Shout_AdrenalineBurst)"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value="Mutagencraft7;StrangeMetabolism7"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(6ef84b7b-a238-4edc-bc79-cce3c797861e,1,1,Mutagencraft)"/>
