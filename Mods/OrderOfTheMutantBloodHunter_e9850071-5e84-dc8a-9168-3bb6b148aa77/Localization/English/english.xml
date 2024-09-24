@@ -13,13 +13,13 @@
   <content contentuid="h87756561g7845g140eg9136gdb44316556dc" version="1">You know one more mutagen recipe.</content>
   <content contentuid="hb42a7ea6g0842g632cg25d1gd29fa720ec73" version="1">You can create one more mutagen per day and you know an additional mutagen recipe.</content>
   <content contentuid="ha4f3d9b2g7910gac6bg7b1bg351e1562146e" version="1">Strange Metabolism</content>
-  <content contentuid="he68ee957g5d79g110bg4c87gd0abb8452902" version="1">Your body begins to adapt to toxins and venoms, ignoring their corrupting effects. You gain &lt;LSTag Tooltip="Resistant"&gt;immunity&lt;/LSTag&gt; to &lt;LSTag Tooltip="Resistant"&gt;poison&lt;/LSTag&gt; damage and the poisoned condition. Additionally, you can trigger a burst of adrenaline that lets you temporarily resist the negative effects of a mutagen. As a bonus action, you can ignore the negative side effect of one mutagen affecting you for some time. Once you do so, you can’t do so again until you finish a long rest.</content>
+  <content contentuid="he68ee957g5d79g110bg4c87gd0abb8452902" version="2">Your body begins to adapt to toxins and venoms, ignoring their corrupting effects. You gain &lt;LSTag Tooltip="Resistant"&gt;immunity&lt;/LSTag&gt; to &lt;LSTag Tooltip="Resistant"&gt;poison&lt;/LSTag&gt; damage and the poisoned condition.</content>
   <content contentuid="h7113218ag95a5g0559geb26ge97d9aca79fb" version="1">Brand of Axiom</content>
   <content contentuid="h33605817gc9b0gd3c1g89d4g2b817ea797e5" version="1">Your mutagenic hemocraft lets your Brand of Castigation reveal a foe’s true nature. Any illusion or invisibility in effect on a creature when you brand it ends, and the creature can’t benefit from invisibility or illusion effects while branded by you. If a creature branded by you is in an alternative form, it must succeed on a Wisdom saving throw or revert to its true form and be stunned until the end of your next turn. Whenever a branded creature attempts to alter its form, it must succeed on a Wisdom saving throw or have the attempt fail, and it is stunned until the end of your next turn.</content>
   <content contentuid="h9aada0eag5c9eg1223g9ac3g5bcea2ce6631" version="1">Blood Curse of Corrosion</content>
   <content contentuid="h7a63a7a5g7b24geec4g3038g8d0f8f249cd2" version="1">Your blood curse can infuse a creature’s body with terrible toxins. You gain the Blood Curse of Corrosion for your Blood Maledict feature. This doesn’t count against your number of blood curses known.</content>
   <content contentuid="h06bb96b1gebf3gbb72gc39bga18ddd37b8a6" version="1">Exalted Mutation</content>
-  <content contentuid="h49eee6bcg4f8bgf01dg3661gb449513c4f0a" version="1">Your body has adapted to produce mutagens naturally in a moment of need. As a bonus action, choose one mutagen currently affecting you. Its effects and side effects end, and you can immediately have a mutagen you know the formula for take effect in its place.</content>
+  <content contentuid="h49eee6bcg4f8bgf01dg3661gb449513c4f0a" version="2">Your body has adapted to produce mutagens naturally in a moment of need.</content>
   <content contentuid="hd2c1e4b9g6fb4g794dgc401g5d02eb8b57b6" version="1">Mutagencraft (Artisan)</content>
   <content contentuid="h52eb8c0cgab5cgcb21ge3c9g573ced09a2b4" version="1">You can create one more mutagen per day and you know an additional mutagen recipe.</content>
   <content contentuid="h712466a4gdae8g546dgfea6g3597c57d6669" version="1">Mutagencraft (Master)</content>
@@ -69,45 +69,45 @@
   <content contentuid="h813e339cg71f0g559ag0ad3g9cc01ea588a0" version="2">Consume Mutagen "Vermillion"</content>
   <content contentuid="h2e2ecd4dgaf0bgd78aga8abgbd29f4fada19" version="1">You create a mutagen with a known recipe from your Blood Hunter order.</content>
   <content contentuid="hae3bb0f0gec8cg5989g5b2dg1e3e0f927e38" version="1">Aether Mutagen</content>
-  <content contentuid="h74cd46c4gbd49gcdc6gd2c7ge11f0b58eeaf" version="2">You gain the ability to fly for some time. However, you have disadvantage on Strength checks and Dexterity checks.</content>
+  <content contentuid="h74cd46c4gbd49gcdc6gd2c7ge11f0b58eeaf" version="3">You gain the ability to fly for some time.</content>
   <content contentuid="hb742211fg722cg5e09gc2d2gda66445397d6" version="1">Alluring Mutagen</content>
-  <content contentuid="hd0efe5c9g3c94g5f36g8977g5d65cf0c940a" version="1">You have advantage on Charisma checks. However, you have disadvantage on initiative rolls.</content>
+  <content contentuid="hd0efe5c9g3c94g5f36g8977g5d65cf0c940a" version="2">You have advantage on Charisma checks.</content>
   <content contentuid="h4082f428ge3e1gf5a8gafb3g0bb1f5d17e09" version="1">Celerity Mutagen</content>
-  <content contentuid="hbb556f76g6840g36e8g958cg6525b673602a" version="1">Dexterity score is increased. However, you have disadvantage on Wisdom saving throws.</content>
+  <content contentuid="hbb556f76g6840g36e8g958cg6525b673602a" version="2">Dexterity score is increased.</content>
   <content contentuid="h87790d4bgbc03gb726g2679gc73b3b62d6ec" version="1">Conversant Mutagen</content>
-  <content contentuid="hd6643e87g3907g6f5cg1410g3ce38b643368" version="1">You have advantage on Intelligence checks. However, you have disadvantage on Wisdom checks.</content>
+  <content contentuid="hd6643e87g3907g6f5cg1410g3ce38b643368" version="2">You have advantage on Intelligence checks.</content>
   <content contentuid="ha6e0c696g8cb2g1ffcg9581g6edae93458d0" version="1">Cruelty Mutagen</content>
-  <content contentuid="h73191caeg29c0gce0bg9f9cg7714a018d9ee" version="2">When you use the attack action, you can make one additional attack as a bonus action. However, you have disadvantage on Intelligence, Wisdom and Charisma saving throws.</content>
+  <content contentuid="h73191caeg29c0gce0bg9f9cg7714a018d9ee" version="3">When you use the attack action, you can make one additional attack as a bonus action.</content>
   <content contentuid="h42eee6b8gcf24gb644ga863gec7e88783124" version="1">Deftness Mutagen</content>
-  <content contentuid="h713ef58ag6885g241dg892dg360a58b63ba9" version="1">You have advantage on Dexterity checks. However, you have disadvantage on Wisdom checks.</content>
+  <content contentuid="h713ef58ag6885g241dg892dg360a58b63ba9" version="2">You have advantage on Dexterity checks.</content>
   <content contentuid="h385cc37egec8cg4f7ag5cfbg7c34919af709" version="1">Embers Mutagen</content>
-  <content contentuid="hc9ff26c3g5924ga3eeg8de2gc60539712c04" version="1">You have resistance to fire damage and vulnerability to cold damage.</content>
+  <content contentuid="hc9ff26c3g5924ga3eeg8de2gc60539712c04" version="2">You have resistance to fire damage.</content>
   <content contentuid="h36922877g52feg4527g5bb9ge9e3bc71a2af" version="1">Gelid Mutagen</content>
-  <content contentuid="h91837aacg5990gd4bcgd9cagd394db237a51" version="1">You have resistance to cold damage and vulnerability to fire damage.</content>
+  <content contentuid="h91837aacg5990gd4bcgd9cagd394db237a51" version="2">You have resistance to cold damage.</content>
   <content contentuid="hfa8cb84fg66fbg6ec7g08aag65afc90a6b0b" version="1">Impermeable Mutagen</content>
-  <content contentuid="hfd1bab85g152cg1c5fg9359g2b77dd9099d9" version="1">You have resistance to piercing damage and vulnerability to slashing damage.</content>
+  <content contentuid="hfd1bab85g152cg1c5fg9359g2b77dd9099d9" version="2">You have resistance to piercing damage</content>
   <content contentuid="hdc15346cgbf5eg3e28ga29cg68bdbc0599a6" version="1">Mobility Mutagen</content>
-  <content contentuid="h721ea0b9g62f4g51ffg7056g353ba788907f" version="4">You have immunity to the grappled and restrained conditions. However, you have disadvantage on Strength checks.</content>
+  <content contentuid="h721ea0b9g62f4g51ffg7056g353ba788907f" version="5">You have immunity to the grappled and restrained conditions.</content>
   <content contentuid="hda7a673cg243bgfd56g95c2g59044ad7734e" version="1">Nighteye Mutagen</content>
-  <content contentuid="h7dda7057g2ccbg6df9g9748g9b30cfacfd8c" version="2">You have darkvision. However, you have disadvantage on attack rolls and on Wisdom checks.</content>
+  <content contentuid="h7dda7057g2ccbg6df9g9748g9b30cfacfd8c" version="3">You have darkvision.</content>
   <content contentuid="ha147b48bgc339ga2a9g5be3gcd4ca07691e7" version="1">Percipient Mutagen</content>
-  <content contentuid="h52316c19gac35g858bgdbebg9d8aa3ebd958" version="1">You have advantage on Wisdom checks. However, you have disadvantage on Charisma checks.</content>
+  <content contentuid="h52316c19gac35g858bgdbebg9d8aa3ebd958" version="2">You have advantage on Wisdom checks.</content>
   <content contentuid="ha175a1ddg53acg9219g3300gb5f1bf2e2fe1" version="1">Potency Mutagen</content>
-  <content contentuid="h0413f60fge192gd582gd109g5cfe83f525b9" version="1">Strength score is increased. However, you have disadvantage on Dexterity saving throws.</content>
+  <content contentuid="h0413f60fge192gd582gd109g5cfe83f525b9" version="2">Strength score is increased.</content>
   <content contentuid="h1ae696aeg0f2fg8e04g29e7g8600f4009f19" version="1">Precision Mutagen</content>
-  <content contentuid="ha07c9a62g7260g785fg2a08g5f2a637f9196" version="3">Your attacks score a critical hit on a roll of 19 or 20. However, you have disadvantage on Strength saving throws.</content>
+  <content contentuid="ha07c9a62g7260g785fg2a08g5f2a637f9196" version="4">Your attacks score a critical hit on a roll of 19 or 20.</content>
   <content contentuid="hc8489cd0g08b2gb4d9g9531g5d2f4b18e530" version="1">Rapidity Mutagen</content>
-  <content contentuid="hbc7f8dd0g3870g7924g8e8dg3b6c68cd1178" version="1">Movement speed is increased. However, you have disadvantage on Intelligence checks.</content>
+  <content contentuid="hbc7f8dd0g3870g7924g8e8dg3b6c68cd1178" version="2">Movement speed is increased.</content>
   <content contentuid="hac5f8fefg6c12gf430g0451g35dcdf58225c" version="1">Reconstruction Mutagen</content>
-  <content contentuid="h909434efg0489g76c9gc0d6g1766824ef3b0" version="3">For some time, at the start of each of your turns, you regain some hit points. However, your movement speed is reduced during this time.</content>
+  <content contentuid="h909434efg0489g76c9gc0d6g1766824ef3b0" version="4">At the start of each of your turns, you regain some hit points. </content>
   <content contentuid="hc15c5633ge5e4gbe9dg2591g7b46c3fa5cd1" version="1">Sagacity Mutagen</content>
-  <content contentuid="h95225fd9g969cgfdf2g2549g0e003458bf20" version="1">Intelligence score is increased. However, you have disadvantage on Charisma saving throws.</content>
+  <content contentuid="h95225fd9g969cgfdf2g2549g0e003458bf20" version="2">Intelligence score is increased.</content>
   <content contentuid="heda0fb8dg25a8ge5ebg9f1bg8e5dd165d9aa" version="1">Shielded Mutagen</content>
-  <content contentuid="he251d5f5gc205g3099g7356g92c21a1f357a" version="1">You have resistance to slashing damage, and you have vulnerability to bludgeoning damage.</content>
+  <content contentuid="he251d5f5gc205g3099g7356g92c21a1f357a" version="2">You have resistance to slashing damage.</content>
   <content contentuid="hc0f2048ag92f1gf403g8282g82678988fb67" version="1">Unbreakable Mutagen</content>
-  <content contentuid="h9322e6bdg1af9gf7edged8dg3b3f7fc849d7" version="1">You have resistance to bludgeoning damage, and you have vulnerability to piercing damage.</content>
+  <content contentuid="h9322e6bdg1af9gf7edged8dg3b3f7fc849d7" version="2">You have resistance to bludgeoning damage.</content>
   <content contentuid="h54b05df5g0591g8db1g60b9g467bce237cb8" version="1">Vermillion Mutagen</content>
-  <content contentuid="hf04d656fg1868g0edbgf0b8g9d6d0c2daae1" version="3">You gain an additional use of your Blood Maledict feature. However, you have disadvantage on death saving throws.</content>
+  <content contentuid="hf04d656fg1868g0edbgf0b8g9d6d0c2daae1" version="4">You gain an additional use of your Blood Maledict feature.</content>
   <content contentuid="h145c570eg4f7cgaaf1gbe4bg6d578a5793bc" version="1">Mutagencraft</content>
   <content contentuid="h8be5ce8dg162eg2cd9gb825ge62da5c64a0d" version="2">You can craft a limited number of mutagens each day.</content>
   <content contentuid="hf8c0975bg8230g603fg5cfbg7590938a1af7" version="6">Mutagen "Aether"</content>
@@ -193,5 +193,56 @@
   <content contentuid="h62d60380g8738g81cag372cg33d6a05dbde7" version="1">Flush Mutagens</content>
   <content contentuid="h09294f66g6366g52f4gf0eagf07ae89b5994" version="1">Focus and flush all mutagens from your system, ending their effects and side effects.</content>
   <content contentuid="h9441fe99g1b93g7bcbg899cgbb6d953ae682" version="1">Adrenaline Burst</content>
-  <content contentuid="hdb797e20g0f03g9fe5g2441g09f27a5a28f9" version="1">To do TODO adrenaline burst</content>
+  <content contentuid="hdb797e20g0f03g9fe5g2441g09f27a5a28f9" version="3">You temporarily resist the negative effects of mutagens.</content>
+  <content contentuid="h755c08aag02acg0222g0148gcb2ece1484bd" version="1">Aether Mutagen</content>
+  <content contentuid="h77108206ge74bg7261gbb37g279cdb184291" version="1">You have disadvantage on Strength checks and Dexterity checks.</content>
+  <content contentuid="h6b09fd25g0078g78e0g44fcg2e231426fa88" version="1">Alluring Mutagen</content>
+  <content contentuid="h4e7e876cgcd7agf9f9g8721g62c0c39f920e" version="1">You have disadvantage on initiative rolls.</content>
+  <content contentuid="h0ad4bafag8b9ag80c4g7bd8g316d6d355a77" version="1">Celerity Mutagen</content>
+  <content contentuid="h10f8cdd2gc89egb9deg04b4g65c3ff60def6" version="1">You have disadvantage on Wisdom saving throws.</content>
+  <content contentuid="h6b96eca6ge687g40a8g37dcg026c30a11d43" version="1">Conversant Mutagen</content>
+  <content contentuid="h21b24227g8012g9477g68abg94c0d8de5ed4" version="1">You have disadvantage on Wisdom checks.</content>
+  <content contentuid="h48ecd516gf586geb75g59f8g6fa3044d7522" version="1">Cruelty Mutagen</content>
+  <content contentuid="h4170d3eagfc86g8c11g0f4cg93358514befd" version="1">You have disadvantage on Intelligence, Wisdom and Charisma saving throws.</content>
+  <content contentuid="h3469641cg2025g17c2g1d13g818e2195a226" version="1">Deftness Mutagen</content>
+  <content contentuid="h797be911ge62eg1577g76e5gea717f16f97b" version="1">You have disadvantage on Wisdom checks.</content>
+  <content contentuid="hb9a946e2g0fd7gfc07g5a9fg670c07b0b043" version="1">Vermillion Mutagen</content>
+  <content contentuid="h02fc61b7ge0a0g9c9bg67d3gcfb2f4134397" version="1">You have disadvantage on death saving throws.</content>
+  <content contentuid="he509d3fbg62ffgeefagac81g4e7fe102ada4" version="1">Unbreakable Mutagen</content>
+  <content contentuid="h21d3067bg2265g830ag215fgece808cc9945" version="1">You have vulnerability to piercing damage.</content>
+  <content contentuid="h7d830d92g7f4eg3e81g36c0gf9547e15eeab" version="1">Shielded Mutagen</content>
+  <content contentuid="h0e847c13g8be3gef94gdd2bg79aaf4ee84ed" version="1">You have vulnerability to bludgeoning damage.</content>
+  <content contentuid="ha96c007ag414fgdb16gd990g01ef877db89d" version="1">Sagacity Mutagen</content>
+  <content contentuid="hfa04d92eg9215gb0efga905gbb397a272936" version="1">You have disadvantage on Charisma saving throws.</content>
+  <content contentuid="h9cde0ea4ge7ceg14eegd436g0b8ab883b9a6" version="1">Reconstruction Mutagen</content>
+  <content contentuid="he9bcfe90g0825gefa2g784cgc9b56806e3d3" version="1">Your movement speed is reduced.</content>
+  <content contentuid="h938a5736g5118gdfa3g8e36g49005496a236" version="1">Rapidity Mutagen</content>
+  <content contentuid="hdb65d162g5f20g7dc1g1badgb09d4a487d03" version="1">You have disadvantage on Intelligence checks.</content>
+  <content contentuid="h80aca7fegf12cge7d8g1f61g96c3d2781c83" version="1">Precision Mutagen</content>
+  <content contentuid="hf141809cg20a0g6093geb01g81d9161610b3" version="1">You have disadvantage on Strength saving throws.</content>
+  <content contentuid="hb0ee1938g77b9gf3f2g490fg64c0718e4ea9" version="1">Embers Mutagen</content>
+  <content contentuid="ha6f11d65gc97cgc1d7ge126ga543f56cbb19" version="1">You have vulnerability to cold damage.</content>
+  <content contentuid="h545e2c77gf50fg73e8g021cg69eb5b588515" version="1">Gelid Mutagen</content>
+  <content contentuid="h6203b4b1gb756g9469g88acg3f4bb3b67556" version="1">You have vulnerability to fire damage.</content>
+  <content contentuid="h24f184aag6dcfg08bagd073g5a4c32ea40ae" version="1">Impermeable Mutagen</content>
+  <content contentuid="hd27aae06gf8a1gaa89g9f3eg9bac9c1596cd" version="1">You have vulnerability to slashing damage.</content>
+  <content contentuid="ha929123cgff5ag6312g6f5bg80168a8efff0" version="1">Mobility Mutagen</content>
+  <content contentuid="h8858dee8g2626g1464gb2b9gefe934aa3e7a" version="1">You have disadvantage on Strength checks.</content>
+  <content contentuid="hd62dae12g5766ge42agf4d3g6a9cd1de97fa" version="1">Nighteye Mutagen</content>
+  <content contentuid="hf39f902fg55dfg9cc8g7778g540d3f280319" version="1">You have disadvantage on attack rolls and on Wisdom checks.</content>
+  <content contentuid="h6e1c950fgc161g2a62gee9ag429e9367d03f" version="1">Percipient Mutagen</content>
+  <content contentuid="h49e6a108g6e37gc69cgd44cge8c8d6a3d96a" version="1">You have disadvantage on Charisma checks.</content>
+  <content contentuid="h6f8135abg4c44ga641g02c9g60c723963423" version="1">Potency Mutagen</content>
+  <content contentuid="h8d57015cg3ad3g53f5g6dccg80fae63e12ba" version="1">You have disadvantage on Dexterity saving throws.</content>
+  <content contentuid="hbe3d87a3g630dgf7c4g2a31g6d329fa75965" version="1">Adrenaline Burst</content>
+  <content contentuid="he7701ee4g35b9g66a6g1939g3f42993a7ed2" version="1">You temporarily resist the negative effects of a mutagens.</content>
+  <content contentuid="ha4d0573eg9cccg032cge3fag97972b436f49" version="1">You temporarily resist the negative effects of mutagens.</content>
+  <content contentuid="hd164ed0cg9e73g5f3cg5af6gb3e73275f2f7" version="2">Adrenaline Burst</content>
+  <content contentuid="h1017e7f9gcfd1g4682g4150g29108e6ae3b1" version="2">You can trigger a burst of adrenaline that lets you temporarily resist the negative effects of mutagens. As a bonus action, you can ignore the negative side effect of mutagens affecting you for some time. Once you do so, you can’t do so again until you finish a long rest.</content>
+  <content contentuid="h1899796cg3a61g95fbg2826ga75d0244c22b" version="1">Flush Mutagens</content>
+  <content contentuid="h4ca60076ge94eg3eadg02b5g951a88a1b628" version="2">You can focus and flush all mutagens from your system, ending their effects and side effects.</content>
+  <content contentuid="he2bf29d1g4967g3bc0g92cdgb796f0abfab3" version="1">Exalted Mutation</content>
+  <content contentuid="h18701573g84b9gc956gd194g3cd8c367ddb0" version="3">Your body has adapted to produce mutagens naturally in a moment of need. This exalted mutation replaces the positive and negative effects of other mutagens you consumed today.</content>
+  <content contentuid="hac8c72d7g7d23g61f6g3a54g0a19d5cde7ba" version="1">Exalted Mutation</content>
+  <content contentuid="ha2af9db6g05f8g59e4gdbd1ge090dd4b6f7d" version="3">Your body has adapted to produce mutagens naturally in a moment of need. This exalted mutation replaces the positive and negative effects of other mutagens you consumed today.</content>
 </contentList>

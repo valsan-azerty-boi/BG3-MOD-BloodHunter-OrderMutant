@@ -13,6 +13,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f293495-29ee-46b6-a199-78d50f57273d" />
+        <field name="Name" type="NameTableFieldDefinition" value="FlushMutagens" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1899796cg3a61g95fbg2826ga75d0244c22b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4ca60076ge94eg3eadg02b5g951a88a1b628" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ArmsOfHadar" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_FlushMutagens)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fa88d0b9-691a-42d9-831f-edc7258d2b83" />
         <field name="Name" type="NameTableFieldDefinition" value="Mutagencraft7" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f04cad57-b9bd-4185-a16e-08d4db81c038" />
@@ -52,10 +63,21 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3d2457e1-9870-48db-9360-7535457c6141" />
         <field name="Name" type="NameTableFieldDefinition" value="StrangeMetabolism7" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha4f3d9b2g7910gac6bg7b1bg351e1562146e" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he68ee957g5d79g110bg4c87gd0abb8452902" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he68ee957g5d79g110bg4c87gd0abb8452902" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_GaseousForm" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Poisoned);Resistance(Poison,Immune)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d9fe7a6c-a1fc-4f87-9852-de7afeb1e9a6" />
+        <field name="Name" type="NameTableFieldDefinition" value="AdrenalineBurst7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd164ed0cg9e73g5f3cg5af6gb3e73275f2f7" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1017e7f9gcfd1g4682g4150g29108e6ae3b1" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_AdrenalineBurst)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -83,7 +105,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9a0f89ba-724e-45ab-b5fd-8828837bd608" />
         <field name="Name" type="NameTableFieldDefinition" value="ExaltedMutation18" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h06bb96b1gebf3gbb72gc39bga18ddd37b8a6" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h49eee6bcg4f8bgf01dg3661gb449513c4f0a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h49eee6bcg4f8bgf01dg3661gb449513c4f0a" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Thaumaturgy" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
