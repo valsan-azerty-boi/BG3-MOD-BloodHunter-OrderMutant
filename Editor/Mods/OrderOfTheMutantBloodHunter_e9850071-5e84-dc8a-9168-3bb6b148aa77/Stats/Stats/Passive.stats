@@ -85,9 +85,29 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ac90c8e7-7e85-49d6-97b4-07c9276b17a5" />
         <field name="Name" type="NameTableFieldDefinition" value="BrandOfAxiom11" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7113218ag95a5g0559geb26ge97d9aca79fb" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h33605817gc9b0gd3c1g89d4g2b817ea797e5" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_DetectThoughts" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h33605817gc9b0gd3c1g89d4g2b817ea797e5" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BrandOfCastigation" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Psychic)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_BrandOfAxiom)" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('BRAND_OF_AXIOM') and HasRiteDamage()" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(IsFrozenRite()):DealDamage(LevelMapValue(HemocraftDie),Cold,Magical);IF(IsFlameRite()):DealDamage(LevelMapValue(HemocraftDie),Fire,Magical);IF(IsStormRite()):DealDamage(LevelMapValue(HemocraftDie),Lightning,Magical);IF(IsDawnRite()):DealDamage(LevelMapValue(HemocraftDie),Radiant,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4aeede76-8391-43e8-aa5a-3ace2824c947" />
+        <field name="Name" type="NameTableFieldDefinition" value="BrandOfAxiom11Brand" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h253191d4gf669g6971g77f3gb0c53542e3f8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9b680ee9g79f2g2910gb9ccg933dc857118b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BrandOfCastigation" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="GameplayLight(9,false,0.1);StatusImmunity(SG_Invisible);StatusImmunity(SG_Invisible)" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not Self() and CastigationCheck() and Character()" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,CASTIGATION_SELF,100,0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -499,5 +499,30 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Dexterity,2);Ability(Intelligence,2);Ability(Strength,2);Resistance(Piercing,Resistant);Resistance(Slashing,Vulnerable)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7d958e5b-d0b3-40c1-a598-203eec499046" />
+        <field name="Name" type="NameTableFieldDefinition" value="BRAND_OF_AXIOM" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h44ea1f36g3b59g1f1eg3051gd0bc718cbe0b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf27d4e5cgfe20gc935gd977g260a15553647" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Psychic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BrandOfCastigation" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CASTIGATION" />
+        <field name="Passives" type="StringTableFieldDefinition" value="BrandOfAxiom11Brand" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Light" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bd5f68f6-8821-4368-85ca-b185840424e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="BRAND_OF_AXIOM_OWNER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h73996d2ag0067gf126g3405gd8efe4283b30" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h561975b0gb3fega445g111cgc523d1fc3d29" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BrandOfCastigation" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CASTIGATION" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Castigation" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

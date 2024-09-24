@@ -15,9 +15,9 @@
   <content contentuid="ha4f3d9b2g7910gac6bg7b1bg351e1562146e" version="1">Strange Metabolism</content>
   <content contentuid="he68ee957g5d79g110bg4c87gd0abb8452902" version="2">Your body begins to adapt to toxins and venoms, ignoring their corrupting effects. You gain &lt;LSTag Tooltip="Resistant"&gt;immunity&lt;/LSTag&gt; to &lt;LSTag Tooltip="Resistant"&gt;poison&lt;/LSTag&gt; damage and the poisoned condition.</content>
   <content contentuid="h7113218ag95a5g0559geb26ge97d9aca79fb" version="1">Brand of Axiom</content>
-  <content contentuid="h33605817gc9b0gd3c1g89d4g2b817ea797e5" version="1">Your mutagenic hemocraft lets your Brand of Castigation reveal a foe’s true nature. Any illusion or invisibility in effect on a creature when you brand it ends, and the creature can’t benefit from invisibility or illusion effects while branded by you. If a creature branded by you is in an alternative form, it must succeed on a Wisdom saving throw or revert to its true form and be stunned until the end of your next turn. Whenever a branded creature attempts to alter its form, it must succeed on a Wisdom saving throw or have the attempt fail, and it is stunned until the end of your next turn.</content>
+  <content contentuid="h33605817gc9b0gd3c1g89d4g2b817ea797e5" version="2">An expanded version of Brand of Castigation. While marked by Brand of Axiom, a creature cannot benefit from invisibility or illusion effects.</content>
   <content contentuid="h9aada0eag5c9eg1223g9ac3g5bcea2ce6631" version="1">Blood Curse of Corrosion</content>
-  <content contentuid="h7a63a7a5g7b24geec4g3038g8d0f8f249cd2" version="1">Your blood curse can infuse a creature’s body with terrible toxins. You gain the Blood Curse of Corrosion for your Blood Maledict feature. This doesn’t count against your number of blood curses known.</content>
+  <content contentuid="h7a63a7a5g7b24geec4g3038g8d0f8f249cd2" version="1">Your blood curse can infuse a creature’s body with terrible toxins. You cause a creature to become poisoned. The cursed creature can make a Constitution saving throw at the end of each of its turns, ending the curse on itself on a success.</content>
   <content contentuid="h06bb96b1gebf3gbb72gc39bga18ddd37b8a6" version="1">Exalted Mutation</content>
   <content contentuid="h49eee6bcg4f8bgf01dg3661gb449513c4f0a" version="2">Your body has adapted to produce mutagens naturally in a moment of need.</content>
   <content contentuid="hd2c1e4b9g6fb4g794dgc401g5d02eb8b57b6" version="1">Mutagencraft (Artisan)</content>
@@ -245,4 +245,10 @@
   <content contentuid="h18701573g84b9gc956gd194g3cd8c367ddb0" version="3">Your body has adapted to produce mutagens naturally in a moment of need. This exalted mutation replaces the positive and negative effects of other mutagens you consumed today.</content>
   <content contentuid="hac8c72d7g7d23g61f6g3a54g0a19d5cde7ba" version="1">Exalted Mutation</content>
   <content contentuid="ha2af9db6g05f8g59e4gdbd1ge090dd4b6f7d" version="3">Your body has adapted to produce mutagens naturally in a moment of need. This exalted mutation replaces the positive and negative effects of other mutagens you consumed today.</content>
+  <content contentuid="h253191d4gf669g6971g77f3gb0c53542e3f8" version="1">Brand of Axiom</content>
+  <content contentuid="h9b680ee9g79f2g2910gb9ccg933dc857118b" version="1">An expanded version of Brand of Castigation. While marked by Brand of Axiom, a creature cannot benefit from invisibility or illusion effects.</content>
+  <content contentuid="h44ea1f36g3b59g1f1eg3051gd0bc718cbe0b" version="1">Brand of Axiom</content>
+  <content contentuid="hf27d4e5cgfe20gc935gd977g260a15553647" version="1">An expanded version of Brand of Castigation. While marked by Brand of Axiom, a creature cannot benefit from invisibility or illusion effects.</content>
+  <content contentuid="h73996d2ag0067gf126g3405gd8efe4283b30" version="1">Brand of Axiom</content>
+  <content contentuid="h561975b0gb3fega445g111cgc523d1fc3d29" version="1">An expanded version of Brand of Castigation. While marked by Brand of Axiom, a creature cannot benefit from invisibility or illusion effects.</content>
 </contentList>
