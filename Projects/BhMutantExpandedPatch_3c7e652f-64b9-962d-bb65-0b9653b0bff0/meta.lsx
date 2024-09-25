@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="GameProject" type="LSString" value=""/>
+            <attribute id="Module" type="LSString" value="3c7e652f-64b9-962d-bb65-0b9653b0bff0"/>
+            <attribute id="Name" type="LSString" value="BhMutantExpandedPatch"/>
+            <attribute id="UUID" type="LSString" value="5b5c2de2-5d86-ffc2-3fad-430c5c125f96"/>
+            <children>
+                <node id="Categories"/>
+            </children>
+        </node>
+    </region>
+</save>

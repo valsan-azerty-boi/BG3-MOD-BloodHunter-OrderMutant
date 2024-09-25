@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="BloodHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
+                    <attribute id="UUID" type="guid" value="af0ad4eb-2fd3-4f1d-9132-45626c8822ef"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="b7f8f766-8f21-44aa-90fb-60e9551f2382"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="3b1fc112-0ead-4c38-8aea-08fb4b616efa"/>
+                                </node>
+                                <node id="SubClass">
+									<attribute id="Object" type="guid" value="00736f33-32cf-4254-8637-89f6bffc3678" />
+								</node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="566e22ee-5b04-442a-ab2e-e0aae453dcd9"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
