@@ -7,6 +7,7 @@ This mod implements the 'Order of the Mutant' Subclass for the Blood Hunter clas
 ## Languages
 - English
 - French
+- Russian (by justxrx)
 
 ## Requirements
 - BG3 *Patch 7*
