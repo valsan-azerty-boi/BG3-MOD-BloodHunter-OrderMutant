@@ -8,6 +8,8 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbe3d87a3g630dgf7c4g2a31g6d329fa75965" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha4d0573eg9cccg032cge3fag97972b436f49" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAADREBURST" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -21,6 +23,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenAether11_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenAether11_Nega') and HasStatus('MutagenAether11')):ApplyStatus(MutagenAether11_Nega,100,1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenAether11_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAAETH" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -32,6 +36,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability,Strength);Disadvantage(Ability,Dexterity)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAAETHNEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -45,6 +51,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenAlluring_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenAlluring_Nega') and HasStatus('MutagenAlluring')):ApplyStatus(MutagenAlluring_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenAlluring_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAALLU" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -56,6 +64,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Initiative(-1)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAALLUNEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -69,6 +79,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenCelerity_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenCelerity_Nega') and HasStatus('MutagenCelerity')):ApplyStatus(MutagenCelerity_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenCelerity_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTACELETE" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -80,6 +92,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(SavingThrow,Wisdom)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTACELETENEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -93,6 +107,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenConversant_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenConversant_Nega') and HasStatus('MutagenConversant')):ApplyStatus(MutagenConversant_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenConversant_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTACONV" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -104,6 +120,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability,Wisdom)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTACONVNEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -117,6 +135,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenCruelty11_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenCruelty11_Nega') and HasStatus('MutagenCruelty11')):ApplyStatus(MutagenCruelty11_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenCruelty11_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTACRUE" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -128,6 +148,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(SavingThrow,Intelligence);Disadvantage(SavingThrow,Wisdom);Disadvantage(SavingThrow,Charisma)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTACRUENEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -141,6 +163,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenDeftness_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenDeftness_Nega') and HasStatus('MutagenDeftness')):ApplyStatus(MutagenDeftness_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenDeftness_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTADEFT" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -152,6 +176,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability,Wisdom)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTADEFTNEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -165,6 +191,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenEmbers_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenEmbers_Nega') and HasStatus('MutagenEmbers')):ApplyStatus(MutagenEmbers_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenEmbers_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAEMB" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -176,6 +204,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Cold,Vulnerable)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAEMBNEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -189,6 +219,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenGelid_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenGelid_Nega') and HasStatus('MutagenGelid')):ApplyStatus(MutagenGelid_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenGelid_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAGELID" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -200,6 +232,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Fire,Vulnerable)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAGELIDNEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -213,6 +247,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenImpermeable_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenImpermeable_Nega') and HasStatus('MutagenImpermeable')):ApplyStatus(MutagenImpermeable_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenImpermeable_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAIMPER" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -224,6 +260,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Slashing,Vulnerable)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAIMPERNEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -237,6 +275,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenMobility_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenMobility_Nega') and HasStatus('MutagenMobility')):ApplyStatus(MutagenMobility_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenMobility_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAMOB" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -248,6 +288,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability,Strength)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAMOBNEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -261,6 +303,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenNighteye_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenNighteye_Nega') and HasStatus('MutagenNighteye')):ApplyStatus(MutagenNighteye_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenNighteye_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTANIGHT" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -272,6 +316,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AttackRoll);Disadvantage(Ability,Wisdom)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTANIGHTNEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -285,6 +331,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenPercipient_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenPercipient_Nega') and HasStatus('MutagenPercipient')):ApplyStatus(MutagenPercipient_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenPercipient_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAPERCI" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -296,6 +344,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability,Charisma)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAPERCINEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -309,6 +359,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenPotency_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenPotency_Nega') and HasStatus('MutagenPotency')):ApplyStatus(MutagenPotency_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenPotency_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAPOTEN" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -320,6 +372,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(SavingThrow,Dexterity)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAPOTENNEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -333,6 +387,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenPrecision11_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenPrecision11_Nega') and HasStatus('MutagenPrecision11')):ApplyStatus(MutagenPrecision11_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenPrecision11_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAPRECI" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -344,6 +400,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(SavingThrow,Strength)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAPRECINEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -357,6 +415,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenRapidity_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenRapidity_Nega') and HasStatus('MutagenRapidity')):ApplyStatus(MutagenRapidity_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenRapidity_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTARAPI" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -368,6 +428,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability,Intelligence)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTARAPINEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -380,6 +442,8 @@
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1d6);IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenReconstruction7_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenReconstruction7_Nega') and HasStatus('MutagenReconstruction7')):ApplyStatus(MutagenReconstruction7_Nega,100,1)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenReconstruction7_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTARECON" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -391,6 +455,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceConsumeMultiplier(Movement,1.5,0)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTARECONNEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -404,6 +470,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenSagacity_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenSagacity_Nega') and HasStatus('MutagenSagacity')):ApplyStatus(MutagenSagacity_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenSagacity_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTASAGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -415,6 +483,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(SavingThrow,Charisma)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTASAGANEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -428,6 +498,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenShielded_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenShielded_Nega') and HasStatus('MutagenShielded')):ApplyStatus(MutagenShielded_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenShielded_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTASHIELDED" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -439,6 +511,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Bludgeoning,Vulnerable)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTASHIELDEDNEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -452,6 +526,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenUnbreakable_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenUnbreakable_Nega') and HasStatus('MutagenUnbreakable')):ApplyStatus(MutagenUnbreakable_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenUnbreakable_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAUNBREA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -463,6 +539,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Piercing,Vulnerable)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAUNBREANEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -476,6 +554,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenVermillion_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenVermillion_Nega') and HasStatus('MutagenVermillion')):ApplyStatus(MutagenVermillion_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenVermillion_Nega)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAVERMILLION" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -487,6 +567,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(DeathSavingThrow,)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAVERMILLIONNEGA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -497,6 +579,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha2af9db6g05f8g59e4gdbd1ge090dd4b6f7d" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Dexterity,2);Ability(Intelligence,2);Ability(Strength,2);Resistance(Piercing,Resistant);Resistance(Slashing,Vulnerable)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTAEXALTEDMUTA" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -521,7 +605,6 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_BrandOfCastigation" />
         <field name="StackId" type="StringTableFieldDefinition" value="CASTIGATION" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
-        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Castigation" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
