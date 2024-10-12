@@ -252,7 +252,8 @@
   <content contentuid="h73996d2ag0067gf126g3405gd8efe4283b30" version="1">Brand of Axiom</content>
   <content contentuid="h561975b0gb3fega445g111cgc523d1fc3d29" version="1">An expanded version of Brand of Castigation. While marked by Brand of Axiom, a creature cannot benefit from invisibility or illusion effects.</content>
   <content contentuid="heefe80efg5ae9gd8acg6257gfa159b4f9f0e" version="1">Blood Curse of Corrosion</content>
-  <content contentuid="h2d41604eg794eg2c9fgc975g0d367705fefb" version="1">Your blood curse can infuse a creature’s body with terrible necrotic toxins. You cause a creature to become &lt;LSTag Type="Status" Tooltip="POISONED"&gt;poisoned&lt;/LSTag&gt;.</content>
   <content contentuid="h7d1ccf26g7d69gff90ge59fgbacd60b66089" version="1">Blood Curse of Corrosion</content>
+  <content contentuid="hd95f5a5dgb7b5g98dcg8d6cg8950095d5d09" version="1">Blood Curse of Corrosion (Amplified)</content>
+  <content contentuid="h2d41604eg794eg2c9fgc975g0d367705fefb" version="1">Your blood curse can infuse a creature’s body with terrible necrotic toxins. You cause a creature to become &lt;LSTag Type="Status" Tooltip="POISONED"&gt;poisoned&lt;/LSTag&gt;. Can be &lt;LSTag Type="Passive" Tooltip="PassiveAmplify_Tooltip"&gt;Amplified&lt;/LSTag&gt;.</content>
   <content contentuid="hc1865feaga4f4gfbd3g895dg81c5a26e8d18" version="2">Creature infected with a necrotic &lt;LSTag Type="Status" Tooltip="POISONED"&gt;poison&lt;/LSTag&gt;.</content>
 </contentList>
