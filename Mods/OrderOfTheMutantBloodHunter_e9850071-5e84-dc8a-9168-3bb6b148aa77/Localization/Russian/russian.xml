@@ -253,7 +253,8 @@
   <content contentuid="h73996d2ag0067gf126g3405gd8efe4283b30" version="1">Клеймо аксиомы</content>
   <content contentuid="h561975b0gb3fega445g111cgc523d1fc3d29" version="1">Улучшенная версия Клейма возмездия. Пока существо помечено Клеймом аксиомы, оно не может пользоваться эффектами невидимости или иллюзии.</content>
   <content contentuid="heefe80efg5ae9gd8acg6257gfa159b4f9f0e" version="1">Кровавое проклятие гниения</content>
-  <content contentuid="h2d41604eg794eg2c9fgc975g0d367705fefb" version="1">Ваше проклятие крови может наполнить тело существа ужасными токсинами. Вы накладываете на существо статус отравления. Проклятое существо может сделать спасбросок выносливости в конце каждого своего хода, который в случае успеха снимет с него проклятие.</content>
   <content contentuid="h7d1ccf26g7d69gff90ge59fgbacd60b66089" version="1">Кровавое проклятие гниения</content>
+  <content contentuid="hd95f5a5dgb7b5g98dcg8d6cg8950095d5d09" version="1">Кровавое проклятие гниения (Усиленный)</content>
+  <content contentuid="h2d41604eg794eg2c9fgc975g0d367705fefb" version="1">Ваше проклятие крови может наполнить тело существа ужасными токсинами. Вы накладываете на существо статус отравления. Проклятое существо может сделать спасбросок выносливости в конце каждого своего хода, который в случае успеха снимет с него проклятие.</content>
   <content contentuid="hc1865feaga4f4gfbd3g895dg81c5a26e8d18" version="2">Существо, зараженное некротическим &lt;LSTag Type="Status" Tooltip="POISONED"&gt;ядом&lt;/LSTag&gt;.</content>
 </contentList>
