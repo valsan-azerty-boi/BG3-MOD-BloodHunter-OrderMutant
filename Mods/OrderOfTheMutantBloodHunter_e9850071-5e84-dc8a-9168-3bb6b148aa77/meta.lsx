@@ -32,7 +32,7 @@
                     <attribute id="PublishHandle" type="uint64" value="4357524"/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="UUID" type="FixedString" value="e9850071-5e84-dc8a-9168-3bb6b148aa77"/>
-                    <attribute id="Version64" type="int64" value="36028801313931334"/>
+                    <attribute id="Version64" type="int64" value="36169534507319368"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version64" type="int64" value="144255927717549775"/>
