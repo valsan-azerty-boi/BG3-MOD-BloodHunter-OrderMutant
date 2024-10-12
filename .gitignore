@@ -505,9 +505,9 @@ story.debugInfo
 *.dae
 *.swf
 *.bullet
-*.dds
+#*.dds
 *.tga
-*.png
+#*.png
 *.ttf
 *.lsb
 *.lsf
