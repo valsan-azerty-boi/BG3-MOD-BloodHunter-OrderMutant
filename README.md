@@ -8,6 +8,8 @@ This mod implements the 'Order of the Mutant' Subclass for the Blood Hunter clas
 - English
 - French
 - Russian (by justxrx)
+
+## Others
 - Spell/passive icons (by nazguleater)
 
 ## Requirements
