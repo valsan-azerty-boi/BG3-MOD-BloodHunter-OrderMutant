@@ -24,7 +24,7 @@
                     <attribute id="FileSize" type="uint64" value="976008"/>
                     <attribute id="Folder" type="LSString" value="OrderOfTheMutantBloodHunter_e9850071-5e84-dc8a-9168-3bb6b148aa77"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
-                    <attribute id="MD5" type="LSString" value="16fe4b1b4d1cee8d124ddbe42e8a4e33"/>
+                    <attribute id="MD5" type="LSString" value="7c3b892252f9ad8719a8cdb6155d8acb"/>
                     <attribute id="MenuLevelName" type="FixedString" value=""/>
                     <attribute id="Name" type="LSString" value="Order of the Mutant Subclass for Blood Hunter"/>
                     <attribute id="NumPlayers" type="uint8" value="4"/>
@@ -32,7 +32,7 @@
                     <attribute id="PublishHandle" type="uint64" value="4357524"/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="UUID" type="FixedString" value="e9850071-5e84-dc8a-9168-3bb6b148aa77"/>
-                    <attribute id="Version64" type="int64" value="36169534507319368"/>
+                    <attribute id="Version64" type="int64" value="36310271995674701"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version64" type="int64" value="144255927717549775"/>

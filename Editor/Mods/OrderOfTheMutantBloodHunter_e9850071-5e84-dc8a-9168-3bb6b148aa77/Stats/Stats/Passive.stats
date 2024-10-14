@@ -7,7 +7,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Mutagencraft" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3b4eac1eg0a40g945eg4f82gcb0f3b4adf72" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfd39bc80g4afbg218dg68ffgb0cc9d3158fe" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseCreate" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
@@ -17,7 +17,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="FlushMutagens" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1899796cg3a61g95fbg2826ga75d0244c22b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4ca60076ge94eg3eadg02b5g951a88a1b628" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ArmsOfHadar" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_FlushMutagen" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_FlushMutagens)" />
       </fields>
@@ -75,7 +75,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="AdrenalineBurst7" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd164ed0cg9e73g5f3cg5af6gb3e73275f2f7" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1017e7f9gcfd1g4682g4150g29108e6ae3b1" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_AdrenalineSurge" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_AdrenalineBurst)" />
       </fields>
@@ -127,7 +127,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ExaltedMutation18" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h06bb96b1gebf3gbb72gc39bga18ddd37b8a6" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h49eee6bcg4f8bgf01dg3661gb449513c4f0a" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Thaumaturgy" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_ExaltedMutation" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ExaltedMutation)" />
       </fields>

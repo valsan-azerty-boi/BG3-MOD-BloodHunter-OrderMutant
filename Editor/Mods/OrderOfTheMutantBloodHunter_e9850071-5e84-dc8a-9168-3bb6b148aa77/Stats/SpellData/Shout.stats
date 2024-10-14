@@ -5,7 +5,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="174f969f-f41f-4701-abc1-cf855ac47fcf" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenAether11" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseAether" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2db58e38g20e6gcb5eg9deeg9acc6641c274" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hebeb73e5g31ceg4d57g9f37g2a1f02c9e9a2" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(48836c42-346b-4c9f-bb9d-d06bf0a8ff59,-1,1,false,false,false,,,)" />
@@ -25,7 +25,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a76195dd-dcc9-4519-84de-251e6a9a2334" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenAlluring" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseAlluring" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he89e3a3eg1104g411dg8218g9fd47587270f" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h04d95eb6g062ag31e7g02cbg762294fb01ce" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(cd6b434b-af05-4548-a5ff-0dbec5081015,-1,1,false,false,false,,,)" />
@@ -45,7 +45,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c94469cb-c229-4620-91f0-1c1b0879789a" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenCelerity" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseCelerity" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb1b131c6g2a35ge7abg132cgc1499303d357" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1fb29fb8g59adge27dg3694g0948537e3a40" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
@@ -65,7 +65,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c98a3180-ceb7-4a2f-83af-728bf14efb99" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenConversant" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseConversant" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h96f9d6e7g5262g006egb819ga4e6b0e6e974" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1f861d78g5220gd632g0261g2e519775ad71" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
@@ -85,7 +85,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a645d817-02d2-4cf3-bc0c-0ad64ee9cc06" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenCruelty11" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseCruelty" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6d53f7f7gbea6ga10ag67eag77266a90d12c" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hde59a568g98bdg639bgf0e0g499000e417b5" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft11', context.Source)" />
@@ -105,7 +105,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7d4a1c47-23d3-4559-8b36-1a7c7169f9d4" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenDeftness" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseDeftness" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1cceeb91g087bg8409gfe8fg2f391d02c2f7" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8de514fdg25fagf457g1a10gf749c6113a5b" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
@@ -125,7 +125,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c93e2ef0-7267-467c-be1e-25dc0da68938" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenEmbers" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseEmbers" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb9b0c626g64d2geaa2gfda5g95bdbca2673c" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf1f48237g20d7g8c51gc37eg012f2d264e04" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
@@ -145,7 +145,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="14a81301-2e14-4936-b204-3d39c849d09a" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenGelid" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseGelid" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h89ac7702g2d59g4e23g2f89ga2c9f82d8016" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf8bd72c7ge919gc30eg6845gab3ec4f73abd" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
@@ -165,7 +165,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0c719272-5481-432d-b483-81f80fe1389c" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenImpermeable" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseImpermeable" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6794f85bgaf22gec94gfa2bg700aab484397" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb8f6c23cg84ccgfb72g24fbg1bc4538fff6f" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
@@ -185,7 +185,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6ce578d6-d75b-41ae-a371-e60e232e0858" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenMobility" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseMobility" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h99c59654g72afgc919gfc2bgfb74d7362e9e" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3201ab53g1a17gb2cag5945g162fd52caf4a" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
@@ -205,7 +205,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8163784c-66dc-4c0d-bbc1-00342eaecd57" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenNighteye" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseNighteye" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4b69a15dga09eg8f17g96c5g8d49a191d180" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h738c1a67g2783g67cbg5029gdbbf0d178a99" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
@@ -225,7 +225,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a29cc49c-9cdb-49f3-8d34-9521933ce5b0" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenPercipient" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBasePercipient" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h32fb42feg8b8bg05abg1aaegc4268312d9ae" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h47a78355g1ae6gfd2cga887g5394cee1b880" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
@@ -245,7 +245,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="17d64da2-d688-457e-8b4b-cb577cf25647" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenPotency" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBasePotency" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd3ab4f2dged14g7610g8255ga0180d7a908c" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6a5c3fe4gb732g4fdbg6f3eg0905b173ca4c" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
@@ -265,7 +265,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bc8ad535-28e4-41bb-828f-155d87786801" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenPrecision11" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBasePrecision" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9262a3f3g3f45g6a42gf433g2548628d1280" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd131cec8g5a1bg0661g77fbgea1b449a9f4c" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft11', context.Source)" />
@@ -285,7 +285,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1c742431-f46f-41fe-9fa4-839b1a88938b" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenRapidity" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseRapidity" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h32f6822egc485gda8ag93a8g982552e1bf60" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heb4c2d43gbe75g2a78g6b52g3829f51846b8" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
@@ -305,7 +305,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bfdfb23a-b857-415f-81f3-d149bf255957" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenReconstruction7" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseReconstruction" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf90a1dbg1fa2g16a0g070dg2705a9bf4397" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0a7a06e3g5f81g9491gff91gc93a2e2bd332" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft7', context.Source)" />
@@ -325,7 +325,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="32bb25d3-8ac3-4967-b81f-ca3d3b363c2f" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenSagacity" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseSagacity" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf827b26fg9eccg6237gfe3cgc4494139f4c3" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1d9a999cgf1e7g8323gd273g7482ab3fbd54" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
@@ -345,7 +345,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d5638cd2-90b8-45e4-bd49-a3b37e490bae" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenShielded" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseShielded" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h54e191e4gd5d8g7db8g2c2agd40061d9923d" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h599fca4bg1b06g40b1ge839gd52233abf90e" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
@@ -365,7 +365,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b60f9ee5-847e-4a1c-8f73-83f5daec71ca" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenUnbreakable" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseUnbreakable" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h73ea31b2gd0e0g9402g819cg20d1c50992eb" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha16d05begec0fgaa00g33ddg08d120fb72ca" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
@@ -385,7 +385,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="374b8703-8787-4912-baac-c7aab08d7145" />
         <field name="Name" type="NameTableFieldDefinition" value="MutagenVermillion" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseVermillion" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h19a3b6f4g6930gfb88g8959g7735867395a6" version="3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h00037a44g5f7dg441eg7b97g17e879c09392" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
@@ -405,7 +405,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="785a1093-3ef8-47d0-82a3-73e8ae3d8614" />
         <field name="Name" type="NameTableFieldDefinition" value="CreateMutagen" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_GodGale_PartyTime" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseCreate" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h55080817ge541g3a92gd1f0gda85a429ff49" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2e2ecd4dgaf0bgd78aga8abgbd29f4fada19" version="1" />
       </fields>
@@ -414,7 +414,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d57674aa-1c85-43f6-92bf-8c540220b630" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenAether11" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseAether" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb34d593dgdf1eg7740gf0ccgee168c0817e9" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hadee1284g1993g81e6g7421g6eb2dc1843dc" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -422,7 +422,7 @@
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MutagenAether11,100,30);ApplyStatus(MutagenAether11_Nega,100,30)" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft11', context.Source)" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="ApplyStatus(MutagenAether11,100,30);ApplyStatus(MutagenAether11_Nega,100,30)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;895ce382-397d-4b9a-9e8f-6ee3b1ff3a13,,;,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
@@ -437,7 +437,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3391e461-a966-4eb6-86ec-7020f80f98f9" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenAlluring" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseAlluring" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75f9ce31g09ffgf14cg5c2fge9cc995d78c1" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdcdf5267g2dd2g7001gde7ag7ad25f9033d9" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -456,7 +456,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d5dbfb4e-9be3-4ac7-a57f-ad081fad0845" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenCelerity" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseCelerity" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4b2ae887gd106gf60egb836gd958c1c5dbf5" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha7835134g29b6gf244ga78dgcc3b5fe70fd9" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -475,7 +475,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bee1c306-e8ad-4e71-8db4-3ebc852671a2" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenConversant" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseConversant" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd99b82fcg7974gb1e2gaae6gd1a945e0b859" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3e9fe325g27bcgb83fgb4a6gd4241df6c841" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -494,7 +494,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7dca8d39-415b-4042-9dda-9e4d6e6b0563" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenCruelty11" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseCruelty" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h11e751edg3403gc34eg5f41gf6e4753c9879" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h14e6872bg3efcg0ca7gb6b8g776621cd68cf" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -513,7 +513,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0156d4d8-ce95-4b7b-93f9-0343f4706097" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenDeftness" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseDeftness" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h48a60b97g0ebegdfa2gf1dfg5ac0db32d687" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haf760d55g63c4gb635gf445g8e422b74d41d" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -532,7 +532,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1bc531bc-74a0-4b3d-b62d-3d11e3ea6ecd" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenEmbers" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseEmbers" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4373c7acg710fgf5d4g8295g6a02c792aa98" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5da3856g44f9g1309g496dg08ee453bd8f0" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -551,7 +551,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a3046c47-1d0a-4c5f-8ea7-1d0d99a9b5de" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenGelid" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseGelid" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0e80ad68gd212gb41cg207fg0b6b6ca488eb" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h404308b8g3ccbgf7b6g9f0cgd4f98947944e" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -570,7 +570,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5998f180-e405-4532-8eb3-3369262279fe" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenImpermeable" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseImpermeable" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf5179326g5643g374dg3fbcg80f7ee78c3d1" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2a56990eg1cd0g8b41g7232gb41b9c316943" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -589,7 +589,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="355f872a-ee38-4a32-9308-61fc88170a11" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenMobility" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseMobility" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb553e884g75d2g8147gf8aag4bfd456efac9" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf344d9f6ga9fdg5ad6g16f4gcea5321bdb44" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -608,7 +608,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2e9d11f2-3e78-4907-8b04-b7da72567eda" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenNighteye" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseNighteye" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h554b8657g648ag22a0g0539g867cfc6fa551" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb26aef57g46c0ge577g7d45g1889dbb04aaa" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -627,7 +627,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3e6e5786-ae4a-4c4f-b043-d994b2008c8c" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenPercipient" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBasePercipient" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h89262a81gda81gec8fga748gf331cff0fb04" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8c56db46gf98cgee81gc1f1g93ccf8113e62" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -646,7 +646,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="63f7b7ae-9cfd-4d3f-8ac3-9d8c65d71538" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenPotency" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBasePotency" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf6150122g1856g78fcgf477g89cfb1c79eb7" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0ac26473g2fb1gb9fbge0d3g15c234026e94" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -665,7 +665,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fa52c2de-041c-4e76-b742-8edb7f7077e4" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenPrecision11" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBasePrecision" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h135558b8g0989gd531g5205g64d50e6e3d8f" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha2a82162g09adge903g9ba0ge184a53e2fab" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -684,7 +684,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6db9aeac-265c-4040-b5a5-fbf7802b81f3" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenRapidity" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseRapidity" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h37818ad3g22e8g8d2egc680g4a22485e6287" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc6f32a44g62a2g9332g4d58g7fb074996beb" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -703,7 +703,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b9d683d6-ac53-4336-bb62-c2268f237f00" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenReconstruction7" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseReconstruction" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h87106e07g3e78g8c2cg7c4bgd90e41a2eeb0" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h92a75083g9b59g6801ga88ag4d160768a43e" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -722,7 +722,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="26be956b-f2f6-4750-901e-b8b9086acfa2" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenSagacity" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseSagacity" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h86a45d69gff23gf321g657bg37fa045ffd84" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8e671313gb6e0g3906gef6bg9028e68c4f71" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -741,7 +741,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c055ae48-4023-414d-9b7b-8ba856c9d23b" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenShielded" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseShielded" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9085cbc8g9d8fge800ge0afg343397663512" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcfa96849g7cc1ge8bfg37dag6ab678d7074e" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -760,7 +760,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c5387353-2c00-41ca-99ac-e56d32447ca7" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenUnbreakable" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseUnbreakable" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0264150cgd9f0g3214gdb22g10d510b7578c" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8f3f5464gd752g6cacg3192g0126a6e0284f" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -779,7 +779,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d84c97ae-a86d-44e8-bef1-c8cf1ea363b5" />
         <field name="Name" type="NameTableFieldDefinition" value="ConsumeMutagenVermillion" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseVermillion" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h813e339cg71f0g559ag0ad3g9cc01ea588a0" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h33a35b53g91e5gccc0g1831g406a47fadaa2" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
@@ -801,7 +801,7 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SELF,ExaltedMutation);RemoveStatus(SELF,MutagenAether11);RemoveStatus(SELF,MutagenAlluring);RemoveStatus(SELF,MutagenCelerity);RemoveStatus(SELF,MutagenConversant);RemoveStatus(SELF,MutagenCruelty11);RemoveStatus(SELF,MutagenDeftness);RemoveStatus(SELF,MutagenEmbers);RemoveStatus(SELF,MutagenGelid);RemoveStatus(SELF,MutagenImpermeable);RemoveStatus(SELF,MutagenMobility);RemoveStatus(SELF,MutagenNighteye);RemoveStatus(SELF,MutagenPercipient);RemoveStatus(SELF,MutagenPotency);RemoveStatus(SELF,MutagenPrecision11);RemoveStatus(SELF,MutagenRapidity);RemoveStatus(SELF,MutagenReconstruction7);RemoveStatus(SELF,MutagenSagacity);RemoveStatus(SELF,MutagenShielded);RemoveStatus(SELF,MutagenUnbreakable);RemoveStatus(SELF,MutagenVermillion);RemoveStatus(SELF,MutagenAether11_Nega);RemoveStatus(SELF,MutagenAlluring_Nega);RemoveStatus(SELF,MutagenCelerity_Nega);RemoveStatus(SELF,MutagenConversant_Nega);RemoveStatus(SELF,MutagenCruelty11_Nega);RemoveStatus(SELF,MutagenDeftness_Nega);RemoveStatus(SELF,MutagenEmbers_Nega);RemoveStatus(SELF,MutagenGelid_Nega);RemoveStatus(SELF,MutagenImpermeable_Nega);RemoveStatus(SELF,MutagenMobility_Nega);RemoveStatus(SELF,MutagenNighteye_Nega);RemoveStatus(SELF,MutagenPercipient_Nega);RemoveStatus(SELF,MutagenPotency_Nega);RemoveStatus(SELF,MutagenPrecision11_Nega);RemoveStatus(SELF,MutagenRapidity_Nega);RemoveStatus(SELF,MutagenReconstruction7_Nega);RemoveStatus(SELF,MutagenSagacity_Nega);RemoveStatus(SELF,MutagenShielded_Nega);RemoveStatus(SELF,MutagenUnbreakable_Nega);RemoveStatus(SELF,MutagenVermillion_Nega)" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ArmsOfHadar" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_FlushMutagen" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h62d60380g8738g81cag372cg33d6a05dbde7" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h09294f66g6366g52f4gf0eagf07ae89b5994" version="1" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
@@ -819,7 +819,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="AdrenalineBurst" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not Dead() and HasPassive('Mutagencraft', context.Source)" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_EnlargeReduce" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_AdrenalineSurge" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9441fe99g1b93g7bcbg899cgbb6d953ae682" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdb797e20g0f03g9fe5g2441g09f27a5a28f9" version="3" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Misc_Status_SimpleToxin_Start" />
@@ -839,7 +839,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ExaltedMutation" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ExaltedMutation,100,30);RemoveStatus(SELF,MutagenAether11);RemoveStatus(SELF,MutagenAlluring);RemoveStatus(SELF,MutagenCelerity);RemoveStatus(SELF,MutagenConversant);RemoveStatus(SELF,MutagenCruelty11);RemoveStatus(SELF,MutagenDeftness);RemoveStatus(SELF,MutagenEmbers);RemoveStatus(SELF,MutagenGelid);RemoveStatus(SELF,MutagenImpermeable);RemoveStatus(SELF,MutagenMobility);RemoveStatus(SELF,MutagenNighteye);RemoveStatus(SELF,MutagenPercipient);RemoveStatus(SELF,MutagenPotency);RemoveStatus(SELF,MutagenPrecision11);RemoveStatus(SELF,MutagenRapidity);RemoveStatus(SELF,MutagenReconstruction7);RemoveStatus(SELF,MutagenSagacity);RemoveStatus(SELF,MutagenShielded);RemoveStatus(SELF,MutagenUnbreakable);RemoveStatus(SELF,MutagenVermillion);RemoveStatus(SELF,MutagenAether11_Nega);RemoveStatus(SELF,MutagenAlluring_Nega);RemoveStatus(SELF,MutagenCelerity_Nega);RemoveStatus(SELF,MutagenConversant_Nega);RemoveStatus(SELF,MutagenCruelty11_Nega);RemoveStatus(SELF,MutagenDeftness_Nega);RemoveStatus(SELF,MutagenEmbers_Nega);RemoveStatus(SELF,MutagenGelid_Nega);RemoveStatus(SELF,MutagenImpermeable_Nega);RemoveStatus(SELF,MutagenMobility_Nega);RemoveStatus(SELF,MutagenNighteye_Nega);RemoveStatus(SELF,MutagenPercipient_Nega);RemoveStatus(SELF,MutagenPotency_Nega);RemoveStatus(SELF,MutagenPrecision11_Nega);RemoveStatus(SELF,MutagenRapidity_Nega);RemoveStatus(SELF,MutagenReconstruction7_Nega);RemoveStatus(SELF,MutagenSagacity_Nega);RemoveStatus(SELF,MutagenShielded_Nega);RemoveStatus(SELF,MutagenUnbreakable_Nega);RemoveStatus(SELF,MutagenVermillion_Nega)" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_ExaltedMutation" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he2bf29d1g4967g3bc0g92cdgb796f0abfab3" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h18701573g84b9gc956gd194g3cd8c367ddb0" version="3" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ExaltedMutation,100,30);" />

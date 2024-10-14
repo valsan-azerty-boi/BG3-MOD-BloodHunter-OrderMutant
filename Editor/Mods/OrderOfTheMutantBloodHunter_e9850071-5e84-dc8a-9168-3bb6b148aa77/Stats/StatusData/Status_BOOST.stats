@@ -7,7 +7,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="AdrenalineBurst" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbe3d87a3g630dgf7c4g2a31g6d329fa75965" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha4d0573eg9cccg032cge3fag97972b436f49" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_AdrenalineSurge" />
         <field name="StackId" type="StringTableFieldDefinition" value="MUTAADREBURST" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
@@ -18,7 +18,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenAether11" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hae3bb0f0gec8cg5989g5b2dg1e3e0f927e38" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h74cd46c4gbd49gcdc6gd2c7ge11f0b58eeaf" version="3" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseAether" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Fly_Spell)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenAether11_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenAether11_Nega') and HasStatus('MutagenAether11')):ApplyStatus(MutagenAether11_Nega,100,1)" />
@@ -46,7 +46,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenAlluring" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb742211fg722cg5e09gc2d2gda66445397d6" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd0efe5c9g3c94g5f36g8977g5d65cf0c940a" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseAlluring" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Ability,Charisma)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenAlluring_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenAlluring_Nega') and HasStatus('MutagenAlluring')):ApplyStatus(MutagenAlluring_Nega,100,-1)" />
@@ -74,7 +74,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenCelerity" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4082f428ge3e1gf5a8gafb3g0bb1f5d17e09" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbb556f76g6840g36e8g958cg6525b673602a" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseCelerity" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Dexterity,3)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenCelerity_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenCelerity_Nega') and HasStatus('MutagenCelerity')):ApplyStatus(MutagenCelerity_Nega,100,-1)" />
@@ -102,7 +102,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenConversant" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h87790d4bgbc03gb726g2679gc73b3b62d6ec" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd6643e87g3907g6f5cg1410g3ce38b643368" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseConversant" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Ability,Intelligence)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenConversant_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenConversant_Nega') and HasStatus('MutagenConversant')):ApplyStatus(MutagenConversant_Nega,100,-1)" />
@@ -130,7 +130,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenCruelty11" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6e0c696g8cb2g1ffcg9581g6edae93458d0" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h73191caeg29c0gce0bg9f9cg7714a018d9ee" version="3" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseCruelty" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(ExtraAttackCheck(),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyIconGlow(),ModifyTooltipDescription())" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenCruelty11_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenCruelty11_Nega') and HasStatus('MutagenCruelty11')):ApplyStatus(MutagenCruelty11_Nega,100,-1)" />
@@ -158,7 +158,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenDeftness" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h42eee6b8gcf24gb644ga863gec7e88783124" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h713ef58ag6885g241dg892dg360a58b63ba9" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseDeftness" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Ability,Dexterity)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenDeftness_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenDeftness_Nega') and HasStatus('MutagenDeftness')):ApplyStatus(MutagenDeftness_Nega,100,-1)" />
@@ -186,7 +186,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenEmbers" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h385cc37egec8cg4f7ag5cfbg7c34919af709" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc9ff26c3g5924ga3eeg8de2gc60539712c04" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseEmbers" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Fire,Resistant)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenEmbers_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenEmbers_Nega') and HasStatus('MutagenEmbers')):ApplyStatus(MutagenEmbers_Nega,100,-1)" />
@@ -214,7 +214,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenGelid" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h36922877g52feg4527g5bb9ge9e3bc71a2af" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h91837aacg5990gd4bcgd9cagd394db237a51" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseGelid" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Cold,Resistant)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenGelid_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenGelid_Nega') and HasStatus('MutagenGelid')):ApplyStatus(MutagenGelid_Nega,100,-1)" />
@@ -242,7 +242,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenImpermeable" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfa8cb84fg66fbg6ec7g08aag65afc90a6b0b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfd1bab85g152cg1c5fg9359g2b77dd9099d9" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseImpermeable" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Piercing,Resistant)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenImpermeable_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenImpermeable_Nega') and HasStatus('MutagenImpermeable')):ApplyStatus(MutagenImpermeable_Nega,100,-1)" />
@@ -270,7 +270,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenMobility" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdc15346cgbf5eg3e28ga29cg68bdbc0599a6" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h721ea0b9g62f4g51ffg7056g353ba788907f" version="5" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseMobility" />
         <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(GRAPPLED);StatusImmunity(SG_Restrained)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenMobility_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenMobility_Nega') and HasStatus('MutagenMobility')):ApplyStatus(MutagenMobility_Nega,100,-1)" />
@@ -298,7 +298,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenNighteye" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hda7a673cg243bgfd56g95c2g59044ad7734e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7dda7057g2ccbg6df9g9748g9b30cfacfd8c" version="3" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseNighteye" />
         <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenNighteye_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenNighteye_Nega') and HasStatus('MutagenNighteye')):ApplyStatus(MutagenNighteye_Nega,100,-1)" />
@@ -326,7 +326,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenPercipient" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha147b48bgc339ga2a9g5be3gcd4ca07691e7" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h52316c19gac35g858bgdbebg9d8aa3ebd958" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBasePercipient" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Ability,Wisdom)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenPercipient_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenPercipient_Nega') and HasStatus('MutagenPercipient')):ApplyStatus(MutagenPercipient_Nega,100,-1)" />
@@ -354,7 +354,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenPotency" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha175a1ddg53acg9219g3300gb5f1bf2e2fe1" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0413f60fge192gd582gd109g5cfe83f525b9" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBasePotency" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Strength,3)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenPotency_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenPotency_Nega') and HasStatus('MutagenPotency')):ApplyStatus(MutagenPotency_Nega,100,-1)" />
@@ -382,7 +382,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenPrecision11" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1ae696aeg0f2fg8e04g29e7g8600f4009f19" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha07c9a62g7260g785fg2a08g5f2a637f9196" version="4" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBasePrecision" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ReduceCriticalAttackThreshold(1)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenPrecision11_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenPrecision11_Nega') and HasStatus('MutagenPrecision11')):ApplyStatus(MutagenPrecision11_Nega,100,-1)" />
@@ -410,7 +410,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenRapidity" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc8489cd0g08b2gb4d9g9531g5d2f4b18e530" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbc7f8dd0g3870g7924g8e8dg3b6c68cd1178" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseRapidity" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceConsumeMultiplier(Movement,0.5,0);JumpMaxDistanceMultiplier(1.5)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenRapidity_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenRapidity_Nega') and HasStatus('MutagenRapidity')):ApplyStatus(MutagenRapidity_Nega,100,-1)" />
@@ -438,7 +438,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenReconstruction7" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hac5f8fefg6c12gf430g0451g35dcdf58225c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h909434efg0489g76c9gc0d6g1766824ef3b0" version="4" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseReconstruction" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1d6);IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenReconstruction7_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenReconstruction7_Nega') and HasStatus('MutagenReconstruction7')):ApplyStatus(MutagenReconstruction7_Nega,100,1)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenReconstruction7_Nega)" />
@@ -465,7 +465,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenSagacity" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc15c5633ge5e4gbe9dg2591g7b46c3fa5cd1" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h95225fd9g969cgfdf2g2549g0e003458bf20" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseSagacity" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Intelligence,3)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenSagacity_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenSagacity_Nega') and HasStatus('MutagenSagacity')):ApplyStatus(MutagenSagacity_Nega,100,-1)" />
@@ -493,7 +493,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenShielded" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heda0fb8dg25a8ge5ebg9f1bg8e5dd165d9aa" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he251d5f5gc205g3099g7356g92c21a1f357a" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseShielded" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Slashing,Resistant)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenShielded_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenShielded_Nega') and HasStatus('MutagenShielded')):ApplyStatus(MutagenShielded_Nega,100,-1)" />
@@ -521,7 +521,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenUnbreakable" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc0f2048ag92f1gf403g8282g82678988fb67" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9322e6bdg1af9gf7edged8dg3b3f7fc849d7" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseUnbreakable" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Bludgeoning,Resistant)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenUnbreakable_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenUnbreakable_Nega') and HasStatus('MutagenUnbreakable')):ApplyStatus(MutagenUnbreakable_Nega,100,-1)" />
@@ -549,7 +549,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MutagenVermillion" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h54b05df5g0591g8db1g60b9g467bce237cb8" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf04d656fg1868g0edbgf0b8g9d6d0c2daae1" version="4" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseVermillion" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(BloodMaledict,1,0)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenVermillion_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenVermillion_Nega') and HasStatus('MutagenVermillion')):ApplyStatus(MutagenVermillion_Nega,100,-1)" />
@@ -577,7 +577,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ExaltedMutation" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hac8c72d7g7d23g61f6g3a54g0a19d5cde7ba" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha2af9db6g05f8g59e4gdbd1ge090dd4b6f7d" version="3" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_GreaterRestoration" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_ExaltedMutation" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Dexterity,2);Ability(Intelligence,2);Ability(Strength,2);Resistance(Piercing,Resistant);Resistance(Slashing,Vulnerable)" />
         <field name="StackId" type="StringTableFieldDefinition" value="MUTAEXALTEDMUTA" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
