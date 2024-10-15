@@ -5,11 +5,172 @@
         <node id="root">
             <children>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_ActualMutagenBase"/>
+                    <attribute id="U1" type="float" value="0.50097656"/>
+                    <attribute id="U2" type="float" value="0.62402344"/>
+                    <attribute id="V1" type="float" value="0.37597656"/>
+                    <attribute id="V2" type="float" value="0.49902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_AdvantageCha"/>
+                    <attribute id="U1" type="float" value="0.62597656"/>
+                    <attribute id="U2" type="float" value="0.74902344"/>
+                    <attribute id="V1" type="float" value="0.37597656"/>
+                    <attribute id="V2" type="float" value="0.49902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_AdvantageDex"/>
+                    <attribute id="U1" type="float" value="0.75097656"/>
+                    <attribute id="U2" type="float" value="0.87402344"/>
+                    <attribute id="V1" type="float" value="0.37597656"/>
+                    <attribute id="V2" type="float" value="0.49902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_AdvantageInt"/>
+                    <attribute id="U1" type="float" value="0.87597656"/>
+                    <attribute id="U2" type="float" value="0.99902344"/>
+                    <attribute id="V1" type="float" value="0.37597656"/>
+                    <attribute id="V2" type="float" value="0.49902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_AdvantageWis"/>
+                    <attribute id="U1" type="float" value="0.0009765625"/>
+                    <attribute id="U2" type="float" value="0.12402344"/>
+                    <attribute id="V1" type="float" value="0.50097656"/>
+                    <attribute id="V2" type="float" value="0.62402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_Aether"/>
+                    <attribute id="U1" type="float" value="0.12597656"/>
+                    <attribute id="U2" type="float" value="0.24902344"/>
+                    <attribute id="V1" type="float" value="0.50097656"/>
+                    <attribute id="V2" type="float" value="0.62402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_AttributeIncreaseDex"/>
+                    <attribute id="U1" type="float" value="0.25097656"/>
+                    <attribute id="U2" type="float" value="0.37402344"/>
+                    <attribute id="V1" type="float" value="0.50097656"/>
+                    <attribute id="V2" type="float" value="0.62402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_AttributeIncreaseInt"/>
+                    <attribute id="U1" type="float" value="0.37597656"/>
+                    <attribute id="U2" type="float" value="0.49902344"/>
+                    <attribute id="V1" type="float" value="0.50097656"/>
+                    <attribute id="V2" type="float" value="0.62402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_AttributeIncreaseStr"/>
+                    <attribute id="U1" type="float" value="0.50097656"/>
+                    <attribute id="U2" type="float" value="0.62402344"/>
+                    <attribute id="V1" type="float" value="0.50097656"/>
+                    <attribute id="V2" type="float" value="0.62402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_Cruelty"/>
+                    <attribute id="U1" type="float" value="0.62597656"/>
+                    <attribute id="U2" type="float" value="0.74902344"/>
+                    <attribute id="V1" type="float" value="0.50097656"/>
+                    <attribute id="V2" type="float" value="0.62402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_Impermable"/>
+                    <attribute id="U1" type="float" value="0.75097656"/>
+                    <attribute id="U2" type="float" value="0.87402344"/>
+                    <attribute id="V1" type="float" value="0.50097656"/>
+                    <attribute id="V2" type="float" value="0.62402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_Mobility"/>
+                    <attribute id="U1" type="float" value="0.87597656"/>
+                    <attribute id="U2" type="float" value="0.99902344"/>
+                    <attribute id="V1" type="float" value="0.50097656"/>
+                    <attribute id="V2" type="float" value="0.62402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_Nighteye"/>
+                    <attribute id="U1" type="float" value="0.0009765625"/>
+                    <attribute id="U2" type="float" value="0.12402344"/>
+                    <attribute id="V1" type="float" value="0.62597656"/>
+                    <attribute id="V2" type="float" value="0.74902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_Precision"/>
+                    <attribute id="U1" type="float" value="0.12597656"/>
+                    <attribute id="U2" type="float" value="0.24902344"/>
+                    <attribute id="V1" type="float" value="0.62597656"/>
+                    <attribute id="V2" type="float" value="0.74902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_Rapidity"/>
+                    <attribute id="U1" type="float" value="0.25097656"/>
+                    <attribute id="U2" type="float" value="0.37402344"/>
+                    <attribute id="V1" type="float" value="0.62597656"/>
+                    <attribute id="V2" type="float" value="0.74902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_Reconstruction"/>
+                    <attribute id="U1" type="float" value="0.37597656"/>
+                    <attribute id="U2" type="float" value="0.49902344"/>
+                    <attribute id="V1" type="float" value="0.62597656"/>
+                    <attribute id="V2" type="float" value="0.74902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_ResistanceCold"/>
+                    <attribute id="U1" type="float" value="0.50097656"/>
+                    <attribute id="U2" type="float" value="0.62402344"/>
+                    <attribute id="V1" type="float" value="0.62597656"/>
+                    <attribute id="V2" type="float" value="0.74902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_ResistanceFire"/>
+                    <attribute id="U1" type="float" value="0.62597656"/>
+                    <attribute id="U2" type="float" value="0.74902344"/>
+                    <attribute id="V1" type="float" value="0.62597656"/>
+                    <attribute id="V2" type="float" value="0.74902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_Shielded"/>
+                    <attribute id="U1" type="float" value="0.75097656"/>
+                    <attribute id="U2" type="float" value="0.87402344"/>
+                    <attribute id="V1" type="float" value="0.62597656"/>
+                    <attribute id="V2" type="float" value="0.74902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_Unbreakable"/>
+                    <attribute id="U1" type="float" value="0.87597656"/>
+                    <attribute id="U2" type="float" value="0.99902344"/>
+                    <attribute id="V1" type="float" value="0.62597656"/>
+                    <attribute id="V2" type="float" value="0.74902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_Mutant_Vermillion"/>
+                    <attribute id="U1" type="float" value="0.0009765625"/>
+                    <attribute id="U2" type="float" value="0.12402344"/>
+                    <attribute id="V1" type="float" value="0.75097656"/>
+                    <attribute id="V2" type="float" value="0.87402344"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Spell_Mutant_AdrenalineSurge"/>
                     <attribute id="U1" type="float" value="0.0009765625"/>
                     <attribute id="U2" type="float" value="0.12402344"/>
                     <attribute id="V1" type="float" value="0.0009765625"/>
                     <attribute id="V2" type="float" value="0.12402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Mutant_BloodCurseCorrosion"/>
+                    <attribute id="U1" type="float" value="0.12597656"/>
+                    <attribute id="U2" type="float" value="0.24902344"/>
+                    <attribute id="V1" type="float" value="0.37597656"/>
+                    <attribute id="V2" type="float" value="0.49902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Mutant_BloodCurseCorrosionAmplified"/>
+                    <attribute id="U1" type="float" value="0.25097656"/>
+                    <attribute id="U2" type="float" value="0.37402344"/>
+                    <attribute id="V1" type="float" value="0.37597656"/>
+                    <attribute id="V2" type="float" value="0.49902344"/>
                 </node>
                 <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Spell_Mutant_ExaltedMutation"/>
@@ -176,6 +337,13 @@
                     <attribute id="MapKey" type="FixedString" value="Spell_Mutant_MutagenBaseVermillion"/>
                     <attribute id="U1" type="float" value="0.0009765625"/>
                     <attribute id="U2" type="float" value="0.12402344"/>
+                    <attribute id="V1" type="float" value="0.37597656"/>
+                    <attribute id="V2" type="float" value="0.49902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Mutant_StrangeMetabolism"/>
+                    <attribute id="U1" type="float" value="0.37597656"/>
+                    <attribute id="U2" type="float" value="0.49902344"/>
                     <attribute id="V1" type="float" value="0.37597656"/>
                     <attribute id="V2" type="float" value="0.49902344"/>
                 </node>

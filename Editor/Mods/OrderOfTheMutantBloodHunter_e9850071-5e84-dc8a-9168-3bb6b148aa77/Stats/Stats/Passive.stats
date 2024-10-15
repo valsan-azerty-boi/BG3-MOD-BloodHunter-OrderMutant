@@ -64,7 +64,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="StrangeMetabolism7" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha4f3d9b2g7910gac6bg7b1bg351e1562146e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he68ee957g5d79g110bg4c87gd0abb8452902" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_GaseousForm" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_StrangeMetabolism" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Poisoned);Resistance(Poison,Immune)" />
       </fields>
@@ -116,7 +116,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="BloodCurseOfCorrosion15" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9aada0eag5c9eg1223g9ac3g5bcea2ce6631" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7a63a7a5g7b24geec4g3038g8d0f8f249cd2" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_SpikeGrowth" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_BloodCurseCorrosionAmplified" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_BloodCurseOfCorrosion15)" />
       </fields>
