@@ -93,3 +93,12 @@ data "Icon" "Spell_Mutant_ExaltedMutation"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Shout_ExaltedMutation)"
 
+new entry "Elixir_MutagenCrueltyExtraAttack"
+type "PassiveData"
+using "ExtraAttack"
+data "Icon" "Spell_Mutant_MutagenBaseCruelty"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCast;OnStatusRemoved;OnStatusApplied"
+data "Conditions" "(context.HasContextFlag(StatsFunctorContext.OnCast) and ExtraAttackSpellCheck() and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and not HasStatus('SLAYER_PLAYER',context.Source) and not HasStatus('SLAYER_PLAYER_10',context.Source) and TurnBased(context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased()) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('MUTACRUELTY_EXTRA_ATTACK_Q'))"
+data "StatsFunctors" "IF(context.HasContextFlag(StatsFunctorContext.OnCast)):ApplyStatus(SELF,MUTACRUELTY_EXTRA_ATTACK_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(MUTACRUELTY_EXTRA_ATTACK_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and not HasHigherPriorityExtraAttackQueued('MUTACRUELTY_EXTRA_ATTACK_Q') and not HasAnyExtraAttack()):ApplyStatus(MUTACRUELTY_EXTRA_ATTACK, 100, 1)"
+

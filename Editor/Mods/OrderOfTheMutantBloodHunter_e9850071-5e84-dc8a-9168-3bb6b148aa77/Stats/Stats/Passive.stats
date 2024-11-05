@@ -132,5 +132,17 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ExaltedMutation)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8b3f1e21-c070-445a-b1d9-53c347b5dc91" />
+        <field name="Name" type="NameTableFieldDefinition" value="Elixir_MutagenCrueltyExtraAttack" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d6652b46-7134-4986-a0a9-8eeb61148be8" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseCruelty" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnStatusRemoved;OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="(context.HasContextFlag(StatsFunctorContext.OnCast) and ExtraAttackSpellCheck() and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and not HasStatus('SLAYER_PLAYER',context.Source) and not HasStatus('SLAYER_PLAYER_10',context.Source) and TurnBased(context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased()) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('MUTACRUELTY_EXTRA_ATTACK_Q'))" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnCast)):ApplyStatus(SELF,MUTACRUELTY_EXTRA_ATTACK_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(MUTACRUELTY_EXTRA_ATTACK_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and not HasHigherPriorityExtraAttackQueued('MUTACRUELTY_EXTRA_ATTACK_Q') and not HasAnyExtraAttack()):ApplyStatus(MUTACRUELTY_EXTRA_ATTACK, 100, 1)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

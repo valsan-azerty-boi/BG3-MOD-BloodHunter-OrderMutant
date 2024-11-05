@@ -131,11 +131,42 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6e0c696g8cb2g1ffcg9581g6edae93458d0" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h73191caeg29c0gce0bg9f9cg7714a018d9ee" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseCruelty" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(ExtraAttackCheck(),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyIconGlow(),ModifyTooltipDescription())" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('AdrenalineBurst')):RemoveStatus(MutagenCruelty11_Nega);IF(not HasStatus('AdrenalineBurst') and not HasStatus('MutagenCruelty11_Nega') and HasStatus('MutagenCruelty11')):ApplyStatus(MutagenCruelty11_Nega,100,-1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MutagenCruelty11_Nega)" />
         <field name="StackId" type="StringTableFieldDefinition" value="MUTACRUE" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Elixir_MutagenCrueltyExtraAttack" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f1f0a29b-5e70-4e66-8ef6-564941ccd988" />
+        <field name="Name" type="NameTableFieldDefinition" value="MUTACRUELTY_EXTRA_ATTACK" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2e2ad149-8527-440a-9172-45d89725b9f4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseCruelty" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTACRUELTY_EXTRA_ATTACK" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="20" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="ExtraAttackSpellCheck() and HasUseCosts('ActionPoint',false,context.Target) and not IsOffHandAttack()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisablePortraitIndicator;DisableOverhead;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3c37c486-a4d9-413b-9c29-9acd7eace1e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="MUTACRUELTY_EXTRA_ATTACK_Q" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f103476e-4c66-4dfa-9db1-01869d2b314f" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_MutagenBaseCruelty" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MUTACRUELTY_EXTRA_ATTACK" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="10" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasHigherPriorityExtraAttackQueued('MUTACRUELTY_EXTRA_ATTACK_Q') and not HasAnyExtraAttack()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisablePortraitIndicator;DisableOverhead;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(MUTACRUELTY_EXTRA_ATTACK,100,1)" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -578,7 +609,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hac8c72d7g7d23g61f6g3a54g0a19d5cde7ba" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha2af9db6g05f8g59e4gdbd1ge090dd4b6f7d" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Mutant_ExaltedMutation" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Dexterity,2);Ability(Intelligence,2);Ability(Strength,2);Resistance(Piercing,Resistant);Resistance(Slashing,Vulnerable)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Dexterity,2);Ability(Intelligence,2);Ability(Strength,2);Resistance(Piercing,Resistant);Resistance(Slashing,Resistant)" />
         <field name="StackId" type="StringTableFieldDefinition" value="MUTAEXALTEDMUTA" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
@@ -606,7 +637,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_BrandOfCastigation" />
         <field name="StackId" type="StringTableFieldDefinition" value="CASTIGATION" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
-        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Castigation" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Castigation" enumeration_type_name="StatusGroupFlags" version="1" /> <!-- Never delete this!! If the toolkit deletes it, you must put it back manually, you also need the equivalent in Status_BOOST.txt -->
       </fields>
     </stat_object>
     <stat_object is_substat="false">
