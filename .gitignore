@@ -501,14 +501,14 @@ story.debugInfo
 
 # Assets             #
 ######################
-*.gr2
+#*.gr2
 *.dae
 *.swf
 *.bullet
 #*.dds
-*.tga
+#*.tga
 #*.png
-*.ttf
+#*.ttf
 *.lsb
 *.lsf
 *.lsfx
